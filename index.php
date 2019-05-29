@@ -377,7 +377,7 @@
                         </div>	
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <!--<div class="col-12 col-lg-4">
                     <div class="card exchanges">
                         <div class="card-body">
                             <div class="media">
@@ -391,7 +391,7 @@
                         </div>	
                     </div>
                 </div>
-                <!--<div class="col-12 col-lg-4  hidden-xs">
+                <div class="col-12 col-lg-4  hidden-xs">
                     <div class="card exchanges disabled">
                         <div class="card-body">
                             <div class="media">
