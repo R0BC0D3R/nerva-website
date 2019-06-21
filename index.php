@@ -199,7 +199,7 @@
                                 <span class="fa fa-lock fa-3x gradient-fill mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Secure</h4>
-                                    <p class="card-text">Based on the Monero, NERVA combines cryptonote's first class privacy and fungability with solo CPU mining. 
+                                    <p class="card-text">Based on the Monero, NERVA combines cryptonote's first class privacy and fungibility with solo CPU mining. 
                                         Parties to each transaction remain anonymous and keep their transaction histories hidden with NERVA.</p>
                                 </div>
                             </div>
