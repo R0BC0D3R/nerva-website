@@ -1,0 +1,44 @@
+#!/bin/bash -e
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+cli_version=v0.1.6.8
+gui_version=v0.0.2.4
+
+cli_codename=Lammergeier
+gui_codename=Beta-4
+
+ledger_version=v0.1.6.5
+
+cd ~/Dropbox/nerva
+
+win_cli_link=$(dropbox sharelink ./nerva-${cli_version}_windows-x64.zip)
+lin_cli_link=$(dropbox sharelink ./nerva-${cli_version}_linux-x64.zip)
+mac_cli_link=$(dropbox sharelink ./nerva-${cli_version}_osx-x64.zip)
+
+win_gui_link=$(dropbox sharelink ./nerva-gui-${gui_version}_windows.zip)
+lin_gui_link=$(dropbox sharelink ./nerva-gui-${gui_version}_linux.zip)
+mac_gui_link=$(dropbox sharelink ./nerva-gui-${gui_version}_mac.zip)
+
+ledger_link=$(dropbox sharelink ./nerva-${ledger_version}_ledger.zip)
+
+presspack=$(dropbox sharelink ./nerva-presspack.zip)
+quicksync=$(dropbox sharelink ./quicksync.raw)
+
+template=$(cat "${dir}/version.php.template")
+
+verfile=$(echo "$template" | sed -e "s/{_CLI_VERSION}/${cli_version}/" -e "s/{_CLI_CODENAME}/${cli_codename}/" -e "s/{_GUI_VERSION}/${gui_version}/" -e "s/{_GUI_CODENAME}/${gui_codename}/" -e "s/{_LEDGER_VERSION}/${ledger_version}/")
+
+verfile=$(echo "$verfile" | sed -e "s#{_LINUX_CLI_LINK}#${lin_cli_link}#")
+verfile=$(echo "$verfile" | sed -e "s#{_WINDOWS_CLI_LINK}#${win_cli_link}#")
+verfile=$(echo "$verfile" | sed -e "s#{_MAC_CLI_LINK}#${mac_cli_link}#")
+
+verfile=$(echo "$verfile" | sed -e "s#{_LINUX_GUI_LINK}#${lin_gui_link}#")
+verfile=$(echo "$verfile" | sed -e "s#{_WINDOWS_GUI_LINK}#${win_gui_link}#")
+verfile=$(echo "$verfile" | sed -e "s#{_MAC_GUI_LINK}#${mac_gui_link}#")
+
+verfile=$(echo "$verfile" | sed -e "s#{_LEDGER_LINK}#${ledger_link}#")
+
+verfile=$(echo "$verfile" | sed -e "s#{_PRESSPACK}#${presspack}#")
+verfile=$(echo "$verfile" | sed -e "s#{_QUICKSYNC}#${quicksync}#")
+
+echo "${verfile}" > "${dir}/version.php"

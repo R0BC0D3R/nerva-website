@@ -47,8 +47,8 @@
                                 <li class="nav-item"> <a class="nav-link" href="#paper-wallet">PAPER WALLET</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="https://docs.getnerva.org">WIKI</a>
                                 </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://freeboard.io/board/EV5-se">STATS</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://explorer.getnerva.org">EXPLORER</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#">SHOP</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://getnerva.org/explorer">EXPLORER</a> </li>
                                 <li class="nav-item nav-item-btn"><a href="#downloads" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Downloads</a></li>
                             </ul>
                         </div>
