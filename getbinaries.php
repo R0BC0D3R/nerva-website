@@ -16,8 +16,7 @@ $x->mac_gui = MAC_GUI_LINK;
 $x->windows_gui = WINDOWS_GUI_LINK;
 
 $x->ledger = LEDGER_LINK;
-
-$x->quicksync = QUICKSYNC;
+$x->quicksync = QUICKSYNC_LINK;
 
 echo json_encode($x, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
 ?>

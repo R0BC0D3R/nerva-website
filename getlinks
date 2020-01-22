@@ -28,17 +28,17 @@ template=$(cat "${dir}/version.php.template")
 
 verfile=$(echo "$template" | sed -e "s/{_CLI_VERSION}/${cli_version}/" -e "s/{_CLI_CODENAME}/${cli_codename}/" -e "s/{_GUI_VERSION}/${gui_version}/" -e "s/{_GUI_CODENAME}/${gui_codename}/" -e "s/{_LEDGER_VERSION}/${ledger_version}/")
 
-verfile=$(echo "$verfile" | sed -e "s#{_LINUX_CLI_LINK}#${lin_cli_link}#")
-verfile=$(echo "$verfile" | sed -e "s#{_WINDOWS_CLI_LINK}#${win_cli_link}#")
-verfile=$(echo "$verfile" | sed -e "s#{_MAC_CLI_LINK}#${mac_cli_link}#")
+verfile=$(echo "$verfile" | sed -e "s#{_LINUX_CLI_LINK}#${lin_cli_link}#" -e "s#dl=0#dl=1#")
+verfile=$(echo "$verfile" | sed -e "s#{_WINDOWS_CLI_LINK}#${win_cli_link}#" -e "s#dl=0#dl=1#")
+verfile=$(echo "$verfile" | sed -e "s#{_MAC_CLI_LINK}#${mac_cli_link}#" -e "s#dl=0#dl=1#")
 
-verfile=$(echo "$verfile" | sed -e "s#{_LINUX_GUI_LINK}#${lin_gui_link}#")
-verfile=$(echo "$verfile" | sed -e "s#{_WINDOWS_GUI_LINK}#${win_gui_link}#")
-verfile=$(echo "$verfile" | sed -e "s#{_MAC_GUI_LINK}#${mac_gui_link}#")
+verfile=$(echo "$verfile" | sed -e "s#{_LINUX_GUI_LINK}#${lin_gui_link}#" -e "s#dl=0#dl=1#")
+verfile=$(echo "$verfile" | sed -e "s#{_WINDOWS_GUI_LINK}#${win_gui_link}#" -e "s#dl=0#dl=1#")
+verfile=$(echo "$verfile" | sed -e "s#{_MAC_GUI_LINK}#${mac_gui_link}#" -e "s#dl=0#dl=1#")
 
-verfile=$(echo "$verfile" | sed -e "s#{_LEDGER_LINK}#${ledger_link}#")
+verfile=$(echo "$verfile" | sed -e "s#{_LEDGER_LINK}#${ledger_link}#" -e "s#dl=0#dl=1#")
 
-verfile=$(echo "$verfile" | sed -e "s#{_PRESSPACK}#${presspack}#")
-verfile=$(echo "$verfile" | sed -e "s#{_QUICKSYNC}#${quicksync}#")
+verfile=$(echo "$verfile" | sed -e "s#{_PRESSPACK}#${presspack}#" -e "s#dl=0#dl=1#")
+verfile=$(echo "$verfile" | sed -e "s#{_QUICKSYNC}#${quicksync}#" -e "s#dl=0#dl=1#")
 
 echo "${verfile}" > "${dir}/version.php"

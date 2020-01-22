@@ -8,9 +8,12 @@ define('LEDGER_VERSION', '{_LEDGER_VERSION}');
 define('LINUX_CLI_LINK', '{_LINUX_CLI_LINK}');
 define('WINDOWS_CLI_LINK', '{_WINDOWS_CLI_LINK}');
 define('MAC_CLI_LINK', '{_MAC_CLI_LINK}');
+
 define('LINUX_GUI_LINK', '{_LINUX_GUI_LINK}');
 define('WINDOWS_GUI_LINK', '{_WINDOWS_GUI_LINK}');
 define('MAC_GUI_LINK', '{_MAC_GUI_LINK}');
-define('PRESSPACK', '{_PRESSPACK}');
-define('QUICKSYNC', '{_QUICKSYNC}');
+
+define('LEDGER_LINK', '{_LEDGER_LINK}');
+define('PRESSPACK_LINK', '{_PRESSPACK}');
+define('QUICKSYNC_LINK', '{_QUICKSYNC}');
 ?>

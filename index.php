@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link href="css/style.css" rel="stylesheet">
-    <?php require_once './content/version.php';?>
+    <?php require_once './version.php';?>
 
 </head>
 <script src="./js/paperwallet/languages.js"></script>
@@ -462,12 +462,8 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Linux</h4>
                                     <p class="card-text">CLI and GUI for Linux x64</p>
-                                    <p><a class="btn btn-primary"
-                                            href="<?php echo "./content/binaries/nerva-" . CLI_VERSION . "_linux-x64.zip"; ?>"><span
-                                                class="fa fa-download"></span> &nbsp; CLI</a></p>
-                                    <p><a class="btn btn-primary"
-                                            href="<?php echo "./content/binaries/nerva-gui-" . GUI_VERSION . "_linux.zip"; ?>"><span
-                                                class="fa fa-download"></span> &nbsp; GUI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo LINUX_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; CLI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo LINUX_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; GUI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -481,12 +477,8 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Windows</h4>
                                     <p class="card-text">CLI and GUI for Windows x64</p>
-                                    <p><a class="btn btn-primary"
-                                            href="<?php echo "./content/binaries/nerva-" . CLI_VERSION . "_windows-x64.zip"; ?>"><span
-                                                class="fa fa-download"></span> &nbsp; CLI</a></p>
-                                    <p><a class="btn btn-primary"
-                                            href="<?php echo "./content/binaries/nerva-gui-" . GUI_VERSION . "_windows.zip"; ?>"><span
-                                                class="fa fa-download"></span> &nbsp; GUI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo WINDOWS_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; CLI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo WINDOWS_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; GUI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -500,12 +492,8 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Mac</h4>
                                     <p class="card-text">CLI and GUI for Mac OS</p>
-                                    <p><a class="btn btn-primary"
-                                            href="<?php echo "./content/binaries/nerva-" . CLI_VERSION . "_osx-x64.zip"; ?>"><span
-                                                class="fa fa-download"></span> &nbsp; CLI</a></p>
-                                    <p><a class="btn btn-primary"
-                                            href="<?php echo "./content/binaries/nerva-gui-" . GUI_VERSION . "_mac.zip"; ?>"><span
-                                                class="fa fa-download"></span> &nbsp; GUI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo MAC_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; CLI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo MAC_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; GUI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -526,9 +514,7 @@
                                     <p class="card-text">Requires: <br />
                                         Nerva <?php echo LEDGER_VERSION . "+" ?><br />
                                         Python installation</p>
-                                    <p><a class="btn btn-primary"
-                                            href="<?php echo "./content/binaries/nerva-" . LEDGER_VERSION . "_ledger.zip"; ?>"><span
-                                                class="fa fa-download"></span> &nbsp; All Platforms</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo LEDGER_LINK; ?>"><span class="fa fa-download"></span> &nbsp; All Platforms</a></p>
                                 </div>
                             </div>
                         </div>
@@ -542,10 +528,8 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Source Code</h4>
                                     <p class="card-text">Nerva related repositories</p>
-                                    <p><a class="btn btn-primary" href="https://bitbucket.org/nerva-project/"><span
-                                                class="fab fa-bitbucket"></span> &nbsp; BitBucket</a></p>
-                                    <p><a class="btn btn-primary" href="https://github.com/angrywasp/nerva/"><span
-                                                class="fab fa-github"></span> &nbsp; Github (Mirror)</a></p>
+                                    <p><a class="btn btn-primary" href="https://bitbucket.org/nerva-project/"><span class="fab fa-bitbucket"></span> &nbsp; BitBucket</a></p>
+                                    <p><a class="btn btn-primary" href="https://github.com/angrywasp/nerva/"><span class="fab fa-github"></span> &nbsp; Github (Mirror)</a></p>
                                 </div>
                             </div>
                         </div>
@@ -559,10 +543,8 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Other</h4>
                                     <p class="card-text">Other stuff</p>
-                                    <p><a class="btn btn-primary" href="./content/bootstrap/quicksync.raw"><span
-                                                class="fas fa-archive"></span> &nbsp; QuickSync</a></p>
-                                    <p><a class="btn btn-primary" href="./content/nerva-presspack.zip"><span
-                                                class="fa fa-download"></span> &nbsp; PressPack</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo QUICKSYNC_LINK; ?>"><span class="fas fa-archive"></span> &nbsp; QuickSync</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo PRESSPACK_LINK; ?>"><span class="fa fa-download"></span> &nbsp; PressPack</a></p>
                                 </div>
                             </div>
                         </div>
