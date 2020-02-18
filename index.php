@@ -417,7 +417,25 @@
                     </div>
                 </div>
             </div>
+
             <div class="spacer-2x hidden-xs"></div>
+
+            <div class="col-12 col-lg-4">
+                    <div class="card exchanges">
+                        <div class="card-body">
+                            <div class="media">
+                                <div class="media-body">
+                                    <p><img src="images/nerva-exchange-logo-2.png" height="64"></p>
+                                    <h4 class="card-title">Nerva.Exchange</h4>
+                                    <p class="card-text">Buy Nerva directly with BTC</p>
+                                    <a class="btn btn-primary" href="https://nerva.exchange"
+                                        target="_blank" rel="nofollow"><span class="fa fa-exchange-alt"></span> &nbsp;
+                                        Buy Nerva</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 
