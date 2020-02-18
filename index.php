@@ -418,9 +418,10 @@
                 </div>
             </div>
 
-            <div class="spacer-2x hidden-xs"></div>
+            <div class="spacer hidden-xs"></div>
 
-            <div class="col-12 col-lg-4">
+            <div class="row">
+                <div class="col-12 col-lg-4">
                     <div class="card exchanges">
                         <div class="card-body">
                             <div class="media">
@@ -436,6 +437,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
 
