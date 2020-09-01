@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159854683-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-159854683-1');
+    </script>
     <title>Nerva - Advanced Ideas. Simple Hardware.</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -101,8 +110,7 @@
                                 <div class="media-body">
                                     <h4 class="card-title">A new POW algorithm</h4>
                                     <p class="card-text">NERVA utilizes the brand new and exclusive Cryptonight Adaptive
-                                        algorithm. This makes NERVA the only solo CPU mined cryptonight coin in
-                                        circulation.</p>
+                                        algorithm, with the aim of promoting decentralization and a preference for CPU miners</p>
                                 </div>
                             </div>
                         </div>
@@ -132,8 +140,7 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Energy efficient</h4>
                                     <p class="card-text">No need to run separate GPU mining rigs or other specialized
-                                        hardware. Mine coins on your current computer, or even that old laptop in the
-                                        garage.</p>
+                                        hardware. Mine coins on your current computer with no additional software.</p>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +176,7 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Secure</h4>
                                     <p class="card-text">Based on the Monero, NERVA combines cryptonote's first class
-                                        privacy and fungibility with solo CPU mining.
+                                        privacy and fungibility with an emphasis towards decentralization.
                                         Parties to each transaction remain anonymous and keep their transaction
                                         histories hidden with NERVA.</p>
                                 </div>
@@ -184,10 +191,7 @@
                                 <span class="far fa-thumbs-up fa-3x gradient-fill mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Fair distribution</h4>
-                                    <p class="card-text">Solo CPU mining allows everyone with a computer to mine blocks
-                                        and participate in consensus --
-                                        no need for expensive mining equipment or software that might skim funds. If you
-                                        find a block, you get the entire reward.</p>
+                                    <p class="card-text">An emphasis on CPU mining and no additional mining software means anyone can get involved quickly and easily.</p>
                                 </div>
                             </div>
                         </div>
@@ -216,8 +220,7 @@
                                 </h5>
                                 <p> Crypto should be for everyone, not just those who can afford the hardware to mine
                                     it.
-                                    NERVA allows you to mine on the computer you're using to read this website, or even
-                                    dust off that old laptop in the garage.
+                                    NERVA allows you to mine on standard desktop computers, without elaborate hardware or software configurations.
                                     Because if crypto is going to be our future, then we all need to be able to be a
                                     part of it.
                                     <span class="mb-0">
@@ -278,9 +281,9 @@
                                     also engaged in some more experimental aspects of crypto.
                                     NERVA was the first coin to demonstrate a self adjusting algorithm by changing some
                                     algorithm parameters every block. Now Cryptonight
-                                    Adaptive is in v3 and every single hash relies on different, randomly selected data
-                                    from the blockchain. This combined with the solo mining aspects of the coin,
-                                    give Cryptonight Adaptive the highest level of ASIC and FPGA resistance available.
+                                    Adaptive is in v5 and every single hash relies on different, randomly selected data
+                                    from the blockchain. This reliance on blockchain data improves resistance of the network,
+                                    to ASIC and FPGA attack.
                                     The algorithms reliance on stored blockchain data also put NERVA at the forefront
                                     of resistance to rented hash services like NiceHash and Mining Rig Rentals, which
                                     also makes NERVA the best available coin for resisting 51% attacks
