@@ -598,6 +598,17 @@
         </div>
     </div>
 
+    <div class="section light-bg" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <span class="fa fa-file-contract gradient-fill fa-3x"></span>
+                <div class="spacer"></div>
+                <h2>Reviews</h2>
+            </div>
+        <iframe src="https://revain.org/widget-v2/review-carousel?companyType=Project&companySlug=nerva&consumer=https%3A%2F%2Fgetnerva.org&contentLines=4&elevationLevel=2&writeReviewAt=3&sortBy=recent&perPage=6&bg=neutral.0&reviewLocale=en&ratingProgressFill=%23eb9c35&blockchainLinkColor=%231f89e5&showMoreLinkColor=%231f89e5&dataSource=null&locale=en&theme=default" width="100%" height="400" style="border: none; display: block"></iframe>
+        </div>
+    </div>
+
     <!--<div class="section light-bg" id="faq">
         <div class="container">
             <div class="section-title">
@@ -654,8 +665,7 @@
                     <a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>
                     <a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
                     <a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
-                    <a href="https://bitbucket.org/nerva-project"
-                        class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
+                    <a href="https://bitbucket.org/nerva-project" class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
                 </div>
             </div>
         </div>
@@ -687,6 +697,10 @@
             update: function () {
             }
         };
+
+        $("#show_reviews").click(function () {
+
+        });
 
         $("#validate_address").click(function () {
             if (!publicAddress.val()) {
