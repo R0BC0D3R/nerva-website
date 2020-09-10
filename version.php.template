@@ -14,6 +14,5 @@ define('WINDOWS_GUI_LINK', '{_WINDOWS_GUI_LINK}');
 define('MAC_GUI_LINK', '{_MAC_GUI_LINK}');
 
 define('LEDGER_LINK', '{_LEDGER_LINK}');
-define('PRESSPACK_LINK', '{_PRESSPACK}');
 define('QUICKSYNC_LINK', '{_QUICKSYNC}');
 ?>

@@ -54,9 +54,7 @@
                                 <li class="nav-item"> <a class="nav-link" href="#exchanges">TRADE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#paper-wallet">PAPER WALLET</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://docs.getnerva.org">WIKI</a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link" href="#">SHOP</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://docs.getnerva.org">WIKI</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="https://getnerva.org/explorer">EXPLORER</a> </li>
                                 <li class="nav-item nav-item-btn"><a href="#downloads" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Downloads</a></li>
                             </ul>
@@ -531,7 +529,7 @@
                                 <div class="media-body">
                                     <h4 class="card-title">Source Code</h4>
                                     <p class="card-text">Nerva related repositories</p>
-                                    <p><a class="btn btn-primary" href="https://bitbucket.org/nerva-project/"><span class="fab fa-bitbucket"></span> &nbsp; BitBucket</a></p>
+                                    <p><a class="btn btn-primary" href="https://bitbucket.org/nerva-xnv/"><span class="fab fa-bitbucket"></span> &nbsp; BitBucket</a></p>
                                     <p><a class="btn btn-primary" href="https://github.com/angrywasp/nerva/"><span class="fab fa-github"></span> &nbsp; Github (Mirror)</a></p>
                                 </div>
                             </div>
@@ -547,7 +545,6 @@
                                     <h4 class="card-title">Other</h4>
                                     <p class="card-text">Other stuff</p>
                                     <p><a class="btn btn-primary" href="<?php echo QUICKSYNC_LINK; ?>"><span class="fas fa-archive"></span> &nbsp; QuickSync</a></p>
-                                    <p><a class="btn btn-primary" href="<?php echo PRESSPACK_LINK; ?>"><span class="fa fa-download"></span> &nbsp; PressPack</a></p>
                                 </div>
                             </div>
                         </div>
@@ -648,7 +645,7 @@
                     <a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>
                     <a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
                     <a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
-                    <a href="https://bitbucket.org/nerva-project" class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
+                    <a href="https://bitbucket.org/nerva-xnv" class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
                 </div>
             </div>
         </div>
