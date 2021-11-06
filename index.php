@@ -51,6 +51,7 @@
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#our-mission">MISSION</a> </li>
+                                <li class="nav-item"><a class="nav-link" href="#nerva-map">NODES</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="#exchanges">TRADE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#paper-wallet">PAPER WALLET</a> </li>
@@ -360,6 +361,51 @@
         </div>
     </div>
 
+
+    <div class="section light-bg" id="nerva-map">
+        <div class="container">
+			<div class="section-title">
+				<div class="spacer"></div>
+				<h2>Node Map</h2>
+				<p>
+					Nerva is decentralized due to the single-CPU mining approach.
+					<br />
+					1 CPU = 1 Vote as Satoshi mentioned in his whitepaper.
+				</p>
+			</div>
+			<div class="row">			
+				 <div class="col-sm-12">
+					<div class="bs-example" data-example-id="responsive-embed-16by9-iframe-youtube">
+					  <div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive" src="https://map.getnerva.org/" allowfullscreen=""></iframe>
+					  </div>
+					</div>
+				</div>
+			<div class="spacer-2x hidden-xs"></div>
+			</div>
+		</div>	
+    </div>
+
+
+	<div class="section" id="satoshi-wp">
+        <div class="container">
+			<div class="section-title">
+				<div class="spacer"></div>
+				<h2>Satoshi Whitepaper</h2>
+				<p>
+					According to the Satoshi whitepaper, bitcoin was supposed to be mined by CPUs only.
+				</p>				
+			</div>
+			<div class="row">
+				  <div class="col-sm-12 text-center">
+					<p><img src="images/satoshi-whitepaper.jpg"></p>
+				</div>
+				<div class="spacer-2x hidden-xs"></div>
+			</div>
+	    </div>	
+    </div>
+
+
     <div class="section light-bg" id="exchanges">
         <div class="container">
             <div class="spacer-2x hidden-xs"></div>
@@ -368,23 +414,7 @@
                 <div class="spacer"></div>
                 <h2>Exchanges</h2>
             </div>
-            <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="card exchanges">
-                        <div class="card-body">
-                            <div class="media">
-                                <div class="media-body">
-                                    <p><img src="images/cratexdark.png" height="64"></p>
-                                    <h4 class="card-title">Cratex</h4>
-                                    <p class="card-text">BTC &amp; LTC pairs for trading.</p>
-                                    <a class="btn btn-primary" href="https://cratex.io/index.php?pair=XNV/BTC"
-                                        target="_blank" rel="nofollow"><span class="fa fa-exchange-alt"></span> &nbsp;
-                                        Buy Nerva</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row">						
                 <div class="col-12 col-lg-4">
                     <div class="card exchanges">
                         <div class="card-body">
@@ -401,24 +431,43 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <div class="card exchanges">
-                        <div class="card-body">
-                            <div class="media">
-                                <div class="media-body">
-                                    <p><img src="images/nerva-exchange-logo-2.png" height="64"></p>
-                                    <h4 class="card-title">Nerva.Exchange</h4>
-                                    <p class="card-text">Buy Nerva directly with BTC</p>
-                                    <a class="btn btn-primary" href="https://nerva.exchange"
-                                        target="_blank" rel="nofollow"><span class="fa fa-exchange-alt"></span> &nbsp;
-                                        Buy Nerva</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				
+				<div class="col-12 col-lg-4">
+					<div class="card exchanges">
+						<div class="card-body">
+							<div class="media">
+								<div class="media-body">
+									<p><img src="images/uniswap.png" height="64"></p>
+									<h4 class="card-title">Uniswap</h4>
+									<p class="card-text">Wrapped Nerva coming soon on Uniswap</p>
+									<a class="btn btn-primary" href="https://uniswap.org/" target="_blank" rel="nofollow"><span class="fa fa-exchange-alt"></span> &nbsp;
+										Buy Nerva</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-4">
+					<div class="card exchanges">
+						<div class="card-body">
+							<div class="media">
+								<div class="media-body">
+									<p><img src="images/honeyswap-decentralized-exchange.png" height="64"></p>
+									<h4 class="card-title">Honeyswap</h4>
+									<p class="card-text">Wrapped Nerva coming soon on Honeyswap</p>
+									<a class="btn btn-primary" href="https://app.honeyswap.org/" target="_blank" rel="nofollow"><span class="fa fa-exchange-alt"></span> &nbsp;
+										Buy Nerva</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
             </div>
+			
             <div class="spacer hidden-xs"></div>
+			
         </div>
     </div>
 
@@ -589,67 +638,280 @@
         </div>
     </div>
 
-    <!--<div class="section light-bg" id="faq">
-        <div class="container">
-            <div class="section-title">
-                <span class="fa fa-info gradient-fill fa-3x"></span>
-                <div class="spacer"></div>
-                <h2>FAQ</h2>
-            </div>
-
-            <div class="row pt-4">
-                <div class="col-md-6">
-                    <h4 class="mb-3">What's with the name?</h4>
-                    <p class="light-font mb-5">NERVA stands for Nuclear Engine for Rocket Vehicle Application. It was a
-                        part of a wider research project conducted by NASA in the 1950's and 60's to produce a nuclear
-                        powered rocket engine to power manned missions beyond the moon. NERVA never flew. Those vaguely
-                        familiar with crypto will see the irony in this.</p>
-                    <h4 class="mb-3">Is there a pre-mine?</h4>
-                    <p class="light-font mb-5">Yes. 180,000 coins were pre-mined for this project. This equates to
-                        approximately 0.97% of the total supply. This is to finance the infrastructure to run the
-                        network for the years to come.</p>
-                    <h4 class="mb-3">What's the max supply?</h4>
-                    <p class="light-font mb-5">There will be around 18.5 million coins issued before "tail emission"
-                        occurs, which is a small 1% annual inflation to keep miners incentivized, replace lost coins and
-                        provide future liquidity.</p>
-
-                </div>
-                <div class="col-md-6">
-                    <h4 class="mb-3">What pools are out there?</h4>
-                    <p class="light-font mb-5">Short answer, None. NERVA is intended to be a solo mined, with CPU only.
-                    </p>
-                    <h4 class="mb-3">What about GPU mining?</h4>
-                    <p class="light-font mb-5">Please read <a class="" href="#our-mission">our statement above</a>
-                        regarding the motivation for this coin.</p>
-                    <h4 class="mb-3">Where's your whitepaper?</h4>
-                    <p class="light-font mb-5">As this is a Monero fork, its basis are the
-                        <a class="colored" href="https://cryptonote.org/whitepaper.pdf">CryptoNote</a> and
-                        <a class="colored" href="https://lab.getmonero.org/pubs/MRL-0005.pdf">RingCT</a> protocols. A
-                        whitepaper regarding the Cryptonight Adaptive algorithm is in the works and will be published in
-                        due course.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
-    <div class="section" id="stay-tuned">
+	<div class="section" id="stay-tuned">
         <div class="container">
             <div class="spacer"></div>
             <div class="section-title">
-                <h2>Stay tuned</h2>
+                <h2>Follow us and stay tuned</h2>
             </div>
             <div class="row">
                 <div class="social-channels testimonials-single">
-                    <a href="http://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x box-icon gradient-fill"></a>
-                    <a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>
-                    <a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
-                    <a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
-                    <a href="https://bitbucket.org/nerva-xnv" class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
+					<p>The most active channel (including Support):<br /> 
+						<a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>					
+					</p>
+					<p>Other channels to stay tuned:<br /> 
+						<a href="http://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x box-icon gradient-fill"></a>
+						<a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
+						<a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
+						<a href="https://bitbucket.org/nerva-xnv" class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
+					</p>
                 </div>
             </div>
         </div>
     </div>
+
+
+	<div class="section light-bg" id="faq">
+        <div class="container">
+            <div class="section-title">              
+                <h2>FAQ - Frequently asked questions</h2>
+            </div>
+			<style>
+
+				.accordion_one .panel-group {
+					border: 1px solid #f1f1f1;
+				}
+
+				.accordion_one .panel {
+					background-color: transparent;
+					box-shadow: none;
+					border-bottom: 0 solid transparent;
+					border-radius: 0;
+					margin: 0;
+				}
+
+				.accordion_one .panel-default {
+					border: 0;
+				}
+
+				.accordion-wrap .panel-heading {
+					padding: 0px;
+					border-radius: 0;
+				}
+
+				.accordion_one .panel .panel-heading a.collapsed {
+					color: #999999;
+					display: block;
+					padding: 12px 30px;
+					border-top: 0;
+				}
+
+				.accordion_one .panel .panel-heading a {
+					display: block;
+					padding: 12px 30px;
+					background: #fff;
+					color: #313131;
+					border-bottom: 1px solid #f1f1f1;
+				}
+
+				.accordion-wrap .panel .panel-heading a {
+					font-size: 14px
+				}
+
+				.accordion_one .panel-group .panel-heading+.panel-collapse>.panel-body {
+					border-top: 0;
+					padding-top: 0;
+					padding: 25px 30px 30px 35px;
+					background: #fff;
+					color: #999999;
+					margin-bottom: 10px;
+				}
+
+				.accordion_one .panel .panel-heading a.collapsed:after {
+					content: "\2b";
+					color: #999999;
+					background: #f1f1f1;
+				}
+
+				.accordion_one .panel {
+					background-color: transparent;
+					box-shadow: none;
+					border-bottom: 0 solid transparent;
+					border-radius: 0;
+					margin: 0;
+				}
+
+				.accordion_one .panel-default {
+					border: 0;
+				}
+
+				.accordion-wrap .panel-heading {
+					padding: 0;
+					border-radius: 0;
+				}
+
+				.accordion_one .panel .panel-heading a.collapsed {
+					color: #999999;
+					display: block;
+					padding: 12px 30px;
+					border-top: 0;
+				}
+
+				.accordion_one .panel .panel-heading a {
+					display: block;
+					padding: 12px 30px;
+					background: #fff;
+					color: #313131;
+					border-bottom: 1px solid #f1f1f1;
+				}
+
+				.accordion_one .panel-group .panel-heading+.panel-collapse>.panel-body {
+					border-top: 0;
+					padding-top: 0;
+					padding: 25px 30px 30px 35px;
+					background: #fff;
+					color: #999999;
+					margin-bottom: 10px;
+				}
+
+				.accordion_one .panel .panel-heading a.collapsed:after {
+					content: "\2b";
+					color: #999999;
+				}
+
+				.accordion_one .panel .panel-heading a:after,
+				.accordion_one .panel .panel-heading a.collapsed:after {
+					font-family: 'FontAwesome';
+					font-size: 20px;
+					width: 26px;
+					text-align: center;
+					background: #fff;
+					float: left;
+					margin: -4px 0 0 -31px;
+				}
+
+				.accordion_one .panel .panel-heading a:after {
+					content: "\2212";
+				}
+
+				#accordionFourLeft .panel-title {
+					font-size: 14px;
+				}
+			</style>
+
+			<div class="accordion_one">
+				<div class="panel-group" id="accordionFourLeft">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftone" aria-expanded="false" class="collapsed"> Where can i find the Documentation of Nerva </a> </h3>
+						</div>
+						<div id="collapseFiveLeftone" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
+							<div class="panel-body">
+
+								<div class="text-accordion">
+									<p>Please refer to the documentation: <a href="https://docs.getnerva.org/">Nerva Wiki</a> </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftTwo" aria-expanded="false"> How can i check the balance of a paper wallet? </a> </h3>
+						</div>
+						<div id="collapseFiveLeftTwo" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
+							<div class="panel-body">
+
+								<div class="text-accordion">
+									<p>
+									To check a paper wallets balance you have to restore the wallet: <a href="https://docs.getnerva.org/guides/cli/#restoring-a-wallet">Restoring a wallet</a>
+									<br />
+									There is no way to check a balance offline because nerva is a privacy coin. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftThree" aria-expanded="false"> How can I calculate my mining costs? </a> </h3>
+						</div>
+						<div id="collapseFiveLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+							<div class="panel-body">
+								<div class="text-accordion">
+									<p> Use the <a href="https://www.cryptunit.com/coin/XNV">Mining Calculator from Cryptunit</a>
+									 </p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftFour" aria-expanded="false"> Are there any video tutorials to start mining? </a> </h3>
+						</div>
+						<div id="collapseFiveLeftFour" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+							<div class="panel-body">
+								<div class="text-accordion">
+									<p> Yes, checkout the <a href="https://www.youtube.com/channel/UC84v_i1iNZrLUUA9XbhuCAQ/playlists">Nerva Youtube channel</a>
+									<br />
+									or the <a href="https://bittube.tv/profile/NervaCurrency">Nerva Bittube channel</a></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftFive" aria-expanded="false"> Is there any other chart then the one from TradeOgre for Nerva (XNV)? </a> </h3>
+						</div>
+						<div id="collapseFiveLeftFive" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+							<div class="panel-body">
+								<div class="text-accordion">
+									<p> Yes, checkout the <a href="https://charts.cointrader.pro/charts.html?coin=NERVA%3ABTC">Nerva Coin Chart on Cointrader</a></p>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftSix" aria-expanded="false">What's the max supply of Nerva? </a> </h3>
+						</div>
+						<div id="collapseFiveLeftSix" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+							<div class="panel-body">
+								<div class="text-accordion">
+									<p> There will be around 18.5 million coins issued before "tail emission" occurs, which is a small 1% annual inflation to keep miners incentivized, replace lost coins and provide future liquidity.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftSeven" aria-expanded="false">Where on my machine is the Nerva Blockchain stored? </a> </h3>
+						</div>
+						<div id="collapseFiveLeftSeven" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+							<div class="panel-body">
+								<div class="text-accordion">
+									<p> Windows: c:\ProgramData\nerva
+									<br />
+									Linux: ~/.nerva</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftEight" aria-expanded="false">My question is not covered here - what should i do? </a> </h3>
+						</div>
+						<div id="collapseFiveLeftEight" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+							<div class="panel-body">
+								<div class="text-accordion">
+									<p> Please join our <a href="https://discord.gg/jsdbEns">active discord forum</a> and ask for help.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+					
+				</div>
+				<!--end of /.panel-group-->
+			</div>
+        </div>
+    </div>	
+
 
     <footer class="my-5 text-center">
         <small>
