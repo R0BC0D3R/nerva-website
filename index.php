@@ -51,7 +51,7 @@
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#our-mission">MISSION</a> </li>
-                                <li class="nav-item"><a class="nav-link" href="#nerva-map">NODES</a></li>
+                                <!--<li class="nav-item"><a class="nav-link" href="#nerva-map">NODES</a></li>-->
                                 <li class="nav-item"> <a class="nav-link" href="#exchanges">TRADE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#paper-wallet">PAPER WALLET</a> </li>
@@ -361,7 +361,7 @@
         </div>
     </div>
 
-
+<!--
     <div class="section light-bg" id="nerva-map">
         <div class="container">
 			<div class="section-title">
@@ -385,7 +385,7 @@
 			</div>
 		</div>	
     </div>
-
+-->
 
 	<div class="section" id="satoshi-wp">
         <div class="container">
@@ -398,7 +398,7 @@
 			</div>
 			<div class="row">
 				  <div class="col-sm-12 text-center">
-					<p><img src="images/satoshi-whitepaper.jpg"></p>
+					<p><img src="images/satoshi-whitepaper.jpg" alt="Satoshi Nakamoto Proof-of-Work" class="img-fluid"></p>
 				</div>
 				<div class="spacer-2x hidden-xs"></div>
 			</div>
@@ -463,7 +463,7 @@
 						</div>
 					</div>
 				</div>
-				
+
             </div>
 			
             <div class="spacer hidden-xs"></div>
@@ -660,140 +660,17 @@
         </div>
     </div>
 
-
-	<div class="section light-bg" id="faq">
+    <div class="section light-bg" id="faq">
         <div class="container">
             <div class="section-title">              
                 <h2>FAQ - Frequently asked questions</h2>
             </div>
-			<style>
-
-				.accordion_one .panel-group {
-					border: 1px solid #f1f1f1;
-				}
-
-				.accordion_one .panel {
-					background-color: transparent;
-					box-shadow: none;
-					border-bottom: 0 solid transparent;
-					border-radius: 0;
-					margin: 0;
-				}
-
-				.accordion_one .panel-default {
-					border: 0;
-				}
-
-				.accordion-wrap .panel-heading {
-					padding: 0px;
-					border-radius: 0;
-				}
-
-				.accordion_one .panel .panel-heading a.collapsed {
-					color: #999999;
-					display: block;
-					padding: 12px 30px;
-					border-top: 0;
-				}
-
-				.accordion_one .panel .panel-heading a {
-					display: block;
-					padding: 12px 30px;
-					background: #fff;
-					color: #313131;
-					border-bottom: 1px solid #f1f1f1;
-				}
-
-				.accordion-wrap .panel .panel-heading a {
-					font-size: 14px
-				}
-
-				.accordion_one .panel-group .panel-heading+.panel-collapse>.panel-body {
-					border-top: 0;
-					padding-top: 0;
-					padding: 25px 30px 30px 35px;
-					background: #fff;
-					color: #999999;
-					margin-bottom: 10px;
-				}
-
-				.accordion_one .panel .panel-heading a.collapsed:after {
-					content: "\2b";
-					color: #999999;
-					background: #f1f1f1;
-				}
-
-				.accordion_one .panel {
-					background-color: transparent;
-					box-shadow: none;
-					border-bottom: 0 solid transparent;
-					border-radius: 0;
-					margin: 0;
-				}
-
-				.accordion_one .panel-default {
-					border: 0;
-				}
-
-				.accordion-wrap .panel-heading {
-					padding: 0;
-					border-radius: 0;
-				}
-
-				.accordion_one .panel .panel-heading a.collapsed {
-					color: #999999;
-					display: block;
-					padding: 12px 30px;
-					border-top: 0;
-				}
-
-				.accordion_one .panel .panel-heading a {
-					display: block;
-					padding: 12px 30px;
-					background: #fff;
-					color: #313131;
-					border-bottom: 1px solid #f1f1f1;
-				}
-
-				.accordion_one .panel-group .panel-heading+.panel-collapse>.panel-body {
-					border-top: 0;
-					padding-top: 0;
-					padding: 25px 30px 30px 35px;
-					background: #fff;
-					color: #999999;
-					margin-bottom: 10px;
-				}
-
-				.accordion_one .panel .panel-heading a.collapsed:after {
-					content: "\2b";
-					color: #999999;
-				}
-
-				.accordion_one .panel .panel-heading a:after,
-				.accordion_one .panel .panel-heading a.collapsed:after {
-					font-family: 'FontAwesome';
-					font-size: 20px;
-					width: 26px;
-					text-align: center;
-					background: #fff;
-					float: left;
-					margin: -4px 0 0 -31px;
-				}
-
-				.accordion_one .panel .panel-heading a:after {
-					content: "\2212";
-				}
-
-				#accordionFourLeft .panel-title {
-					font-size: 14px;
-				}
-			</style>
 
 			<div class="accordion_one">
 				<div class="panel-group" id="accordionFourLeft">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftone" aria-expanded="false" class="collapsed"> Where can i find the Documentation of Nerva </a> </h3>
+							<h3 class="panel-title"> <a data-toggle="collapse" data-target="#collapseFiveLeftone" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false" class="collapsed"> Where can i find the Documentation of Nerva </a> </h3>
 						</div>
 						<div id="collapseFiveLeftone" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
 							<div class="panel-body">
@@ -807,7 +684,7 @@
 					
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftTwo" aria-expanded="false"> How can i check the balance of a paper wallet? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftTwo" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false"> How can i check the balance of a paper wallet? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftTwo" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
 							<div class="panel-body">
@@ -825,7 +702,7 @@
 					
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftThree" aria-expanded="false"> How can I calculate my mining costs? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftThree"data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false"> How can I calculate my mining costs? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
@@ -839,7 +716,7 @@
 					
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftFour" aria-expanded="false"> Are there any video tutorials to start mining? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftFour" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false"> Are there any video tutorials to start mining? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftFour" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
@@ -854,7 +731,7 @@
 
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftFive" aria-expanded="false"> Is there any other chart then the one from TradeOgre for Nerva (XNV)? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftFive" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false"> Is there any other chart then the one from TradeOgre for Nerva (XNV)? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftFive" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
@@ -867,7 +744,7 @@
 
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftSix" aria-expanded="false">What's the max supply of Nerva? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftSix" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false">What's the max supply of Nerva? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftSix" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
@@ -880,7 +757,7 @@
 
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftSeven" aria-expanded="false">Where on my machine is the Nerva Blockchain stored? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftSeven" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false">Where on my machine is the Nerva Blockchain stored? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftSeven" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
@@ -895,7 +772,7 @@
 
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#collapseFiveLeftEight" aria-expanded="false">My question is not covered here - what should i do? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftEight" data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false">My question is not covered here - what should i do? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftEight" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
@@ -910,8 +787,7 @@
 				<!--end of /.panel-group-->
 			</div>
         </div>
-    </div>	
-
+    </div>
 
     <footer class="my-5 text-center">
         <small>
