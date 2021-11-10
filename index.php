@@ -92,6 +92,7 @@
         </div>
     </header>
 
+
     <div class="section light-bg" id="features">
         <div class="container">
             <div class="section-title">
@@ -199,6 +200,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="section" id="our-mission">
         <div class="container">
@@ -361,7 +363,8 @@
         </div>
     </div>
 
-<!--
+
+    <!--
     <div class="section light-bg" id="nerva-map">
         <div class="container">
 			<div class="section-title">
@@ -385,9 +388,10 @@
 			</div>
 		</div>	
     </div>
--->
+    -->
 
-	<div class="section" id="satoshi-wp">
+
+	<div class="section light-bg" id="satoshi-wp">
         <div class="container">
 			<div class="section-title">
 				<div class="spacer"></div>
@@ -398,12 +402,102 @@
 			</div>
 			<div class="row">
 				  <div class="col-sm-12 text-center">
-					<p><img src="images/satoshi-whitepaper.jpg" alt="Satoshi Nakamoto Proof-of-Work" class="img-fluid"></p>
+					<p><img src="images/satoshi-whitepaper.jpg" alt="Satoshi Nakamoto's whitepaper; one-CPU-one-vote" class="img-fluid"></p>
 				</div>
 				<div class="spacer-2x hidden-xs"></div>
 			</div>
 	    </div>	
     </div>
+
+
+	<div class="section" id="nerva-roadmap-v2">
+		<div class="container">
+			<div class="section-title">
+				<span class="fa fa-road gradient-fill fa-3x"></span>
+				<div class="spacer"></div>
+				<h2>Nerva (XNV) Roadmap</h2>
+				<p>11/2021</p>
+			</div>
+			<div class="spacer visible-xs"></div>	
+		
+			<div class="row example-split bg-text">
+				
+				<div class="col-md-8 d-flex align-items-center">
+					<ul class="timeline timeline-split">
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>Q4 / 2021</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<p class="timeline-title">XNV Treasury Buybacks</h3>
+								<p>Continue the XNV Treasury buyback via Tradeogre. Currently 26 914 Coins in the Treasury Wallet.</p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>Q4 / 2021</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<p class="timeline-title">Bitbucket to Github</h3>
+								<p>Migrate the Nerva Bitbucket Repository to Github making it accessible to more developers.</p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>Q4 / 2021</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<p class="timeline-title">Mobile Wallet for Android and iOS</h3>
+								<p>Provide a Nerva Mobile Wallet (NMW) to facilitate transactions and provide secure storage.</p>
+							</div>
+						</li>
+						<li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">2022</h2>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>Q1 / 2022</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<p class="timeline-title">DEX Integration (Uniswap & Co)</h3>
+								<p>Buy and sell XNV as a wrapped ERC-20 token via a decentralized exchange without KYC. (Know Your Customer)
+								<!-- Wrap Nerva into an erc-20 token, but then also provide the ability to atomic swap the wrapped Nerva between eth compatible chains. -->
+								</p>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>Q1 / 2022</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<p class="timeline-title">1 Click CPU Miner</h3>
+								<p>A one click solo miner to spread fullnodes even more and to make mining easier for new users.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="col-md-4 hide-below-768">
+					<img src="images/nerva-crowdgift-deadline.png" alt="mountain" class="img-fluid">
+				</div>
+					
+			</div>
+			
+			<!-- <div class="time-bottom centered">
+				© GETNERVA.ORG
+			</div> -->
+			
+		</div>	
+	</div>
 
 
     <div class="section light-bg" id="exchanges">
@@ -414,7 +508,25 @@
                 <div class="spacer"></div>
                 <h2>Exchanges</h2>
             </div>
-            <div class="row">						
+            <div class="row">
+			
+                <!-- <div class="col-12 col-lg-4">
+                    <div class="card exchanges">
+                        <div class="card-body">
+                            <div class="media">
+                                <div class="media-body">
+                                    <p><img src="images/cratexdark.png" height="64"></p>
+                                    <h4 class="card-title">Cratex</h4>
+                                    <p class="card-text">BTC &amp; LTC pairs for trading.</p>
+                                    <a class="btn btn-primary" href="https://cratex.io/index.php?pair=XNV/BTC"
+                                        target="_blank" rel="nofollow"><span class="fa fa-exchange-alt"></span> &nbsp;
+                                        Buy Nerva</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+				
                 <div class="col-12 col-lg-4">
                     <div class="card exchanges">
                         <div class="card-body">
@@ -463,13 +575,14 @@
 						</div>
 					</div>
 				</div>
-
+				
             </div>
 			
             <div class="spacer hidden-xs"></div>
 			
         </div>
     </div>
+
 
     <div class="section" id="mining">
         <div class="container">
@@ -492,6 +605,7 @@
             <div class="spacer-2x hidden-xs"></div>
         </div>
     </div>
+
 
     <div class="section light-bg" id="downloads">
         <div class="container">
@@ -603,6 +717,7 @@
         </div>
     </div>
 
+
     <div class="section" id="paper-wallet">
         <div class="container">
             <div class="spacer-2x hidden-xs"></div>
@@ -627,6 +742,7 @@
         </div>
     </div>
 
+
     <div class="section light-bg" id="reviews">
         <div class="container">
             <div class="section-title">
@@ -638,6 +754,52 @@
         </div>
     </div>
 
+
+    <!--<div class="section light-bg" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <span class="fa fa-info gradient-fill fa-3x"></span>
+                <div class="spacer"></div>
+                <h2>FAQ</h2>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h4 class="mb-3">What's with the name?</h4>
+                    <p class="light-font mb-5">NERVA stands for Nuclear Engine for Rocket Vehicle Application. It was a
+                        part of a wider research project conducted by NASA in the 1950's and 60's to produce a nuclear
+                        powered rocket engine to power manned missions beyond the moon. NERVA never flew. Those vaguely
+                        familiar with crypto will see the irony in this.</p>
+                    <h4 class="mb-3">Is there a pre-mine?</h4>
+                    <p class="light-font mb-5">Yes. 180,000 coins were pre-mined for this project. This equates to
+                        approximately 0.97% of the total supply. This is to finance the infrastructure to run the
+                        network for the years to come.</p>
+                    <h4 class="mb-3">What's the max supply?</h4>
+                    <p class="light-font mb-5">There will be around 18.5 million coins issued before "tail emission"
+                        occurs, which is a small 1% annual inflation to keep miners incentivized, replace lost coins and
+                        provide future liquidity.</p>
+
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">What pools are out there?</h4>
+                    <p class="light-font mb-5">Short answer, None. NERVA is intended to be a solo mined, with CPU only.
+                    </p>
+                    <h4 class="mb-3">What about GPU mining?</h4>
+                    <p class="light-font mb-5">Please read <a class="" href="#our-mission">our statement above</a>
+                        regarding the motivation for this coin.</p>
+                    <h4 class="mb-3">Where's your whitepaper?</h4>
+                    <p class="light-font mb-5">As this is a Monero fork, its basis are the
+                        <a class="colored" href="https://cryptonote.org/whitepaper.pdf">CryptoNote</a> and
+                        <a class="colored" href="https://lab.getmonero.org/pubs/MRL-0005.pdf">RingCT</a> protocols. A
+                        whitepaper regarding the Cryptonight Adaptive algorithm is in the works and will be published in
+                        due course.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    
 	<div class="section" id="stay-tuned">
         <div class="container">
             <div class="spacer"></div>
@@ -660,7 +822,8 @@
         </div>
     </div>
 
-    <div class="section light-bg" id="faq">
+
+	<div class="section light-bg" id="faq">
         <div class="container">
             <div class="section-title">              
                 <h2>FAQ - Frequently asked questions</h2>
@@ -787,7 +950,8 @@
 				<!--end of /.panel-group-->
 			</div>
         </div>
-    </div>
+    </div>	
+
 
     <footer class="my-5 text-center">
         <small>
