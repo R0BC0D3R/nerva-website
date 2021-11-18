@@ -13,6 +13,6 @@ define('LINUX_GUI_LINK', 'https://bitbucket.org/nerva-xnv/gui/downloads/nerva-gu
 define('WINDOWS_GUI_LINK', 'https://bitbucket.org/nerva-xnv/gui/downloads/nerva-gui-v0.2.10.0_win-x64.zip');
 define('MAC_GUI_LINK', 'https://bitbucket.org/nerva-xnv/gui/downloads/nerva-gui-v0.2.10.0_osx-x64.zip');
 
-define('LEDGER_LINK', 'https://getnerva.org/#');
+define('LEDGER_LINK', 'https://nerva.one/#');
 define('QUICKSYNC_LINK', 'https://bitbucket.org/nerva-xnv/nerva/downloads/quicksync.raw');
 ?>

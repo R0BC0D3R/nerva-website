@@ -873,7 +873,7 @@ header {
   padding: 4em;
 }
 #nerva-roadmap-v2 .container-fluid .row:nth-child(even) {
-  background: ;
+  background: transparent;
 }
 .example-title {
   text-align: center;

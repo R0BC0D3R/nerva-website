@@ -32,6 +32,7 @@
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
 
+<!-- Navigation Begins -->
     <div class="nav-menu fixed-top">
         <div class="container">
             <div class="row">
@@ -55,8 +56,8 @@
                                 <li class="nav-item"> <a class="nav-link" href="#exchanges">TRADE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#paper-wallet">PAPER WALLET</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://docs.getnerva.org">WIKI</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://getnerva.org/explorer">EXPLORER</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://docs.nerva.one/">WIKI</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://explorer.nerva.tools/">EXPLORER</a> </li>
                                 <li class="nav-item nav-item-btn"><a href="#downloads" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Downloads</a></li>
                             </ul>
                         </div>
@@ -65,7 +66,9 @@
             </div>
         </div>
     </div>
+<!-- Navigation Ends -->
 
+<!-- Home Begins -->
     <header class="bg-gradient" id="home">
         <div class="container mt-5">
             <div class="spacer-2x"></div>
@@ -78,11 +81,15 @@
                     <div>
                         <div class="spacer hidden-xs"></div>
                         <h1 class="page-intro">
-                            NERVA (XNV)<br>is an untraceable and secure cryptocurrency aiming to be GPU and ASIC
-                            resistant via the new Cryptonight Adaptive POW algorithm.
+                            NERVA (XNV) is a private and secure cryptocurrency that you can mine on your computer                            
                         </h1>
+                        <br>
+                        <p class="mb-4 white-text">
+                            It's GPU and ASIC resistant and stays true to Satoshi Nakamoto's vision of ONE-CPU-ONE-VOTE
+                        </p>
                         <p class="mb-4 white-text">NERVA offers true privacy and fungibility, is totally untraceable and
-                            unlinkable, with users and transfer amounts hidden from the public</p>
+                            unlinkable, with users and transfer amounts hidden from the public
+                        </p>
                     </div>
                 </div>
             </div>
@@ -91,14 +98,15 @@
             <div class="spacer-2x hidden-xs"></div>
         </div>
     </header>
+<!-- Home Begins -->
 
-
+<!-- Features Begin -->
     <div class="section light-bg" id="features">
         <div class="container">
             <div class="section-title">
                 <span class="fa fa-list-alt gradient-fill fa-3x"></span>
                 <div class="spacer"></div>
-                <h2>Features you love</h2>
+                <h2>Features You Love</h2>
                 <div class="spacer hidden-xs"></div>
             </div>
             <div class="row">
@@ -109,8 +117,9 @@
                                 <span class="fa fa-code fa-2x gradient-fill mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">A new POW algorithm</h4>
-                                    <p class="card-text">NERVA utilizes the brand new and exclusive Cryptonight Adaptive
-                                        algorithm, with the aim of promoting decentralization and a preference for CPU miners</p>
+                                    <p class="card-text">NERVA utilizes exclusive Cryptonight Adaptive algorithm, 
+                                        with the aim of promoting decentralization and a preference for CPU miners.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -126,7 +135,8 @@
                                     <p class="card-text">NERVA believes facing the issues in crypto are far more
                                         important than the personal wealth of individuals.
                                         There was no ICO, just a fair launch for those who want to help provide a
-                                        brighter future for crypto.</p>
+                                        brighter future for crypto.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -139,8 +149,9 @@
                                 <span class="far fa-lightbulb fa-3x gradient-fill mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Energy efficient</h4>
-                                    <p class="card-text">No need to run separate GPU mining rigs or other specialized
-                                        hardware. Mine coins on your current computer with no additional software.</p>
+                                    <p class="card-text">No need to run separate GPU mining rigs or other specialized hardware. 
+                                        Mine coins on your current computer with no additional software.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -159,10 +170,9 @@
                                 <span class="far fa-clock fa-3x gradient-fill mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Fast transactions</h4>
-                                    <p class="card-text">A one minute block time and stable blockchain mean your funds
-                                        quickly arrive at their destination. Fast transactions,
-                                        combined with low fees, allow you to send and receive NERVA quickly and cost
-                                        effectively.</p>
+                                    <p class="card-text">One minute block time means your funds arrive quickly. 
+                                        Fast transactions, combined with low fees, allow you to send and receive NERVA quickly and cost effectively.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -175,10 +185,10 @@
                                 <span class="fa fa-lock fa-3x gradient-fill mr-3"></span>
                                 <div class="media-body">
                                     <h4 class="card-title">Secure</h4>
-                                    <p class="card-text">Based on the Monero, NERVA combines cryptonote's first class
+                                    <p class="card-text">Based on the Monero, NERVA combines cryptonote's
                                         privacy and fungibility with an emphasis towards decentralization.
-                                        Parties to each transaction remain anonymous and keep their transaction
-                                        histories hidden with NERVA.</p>
+                                        Transactions remain anonymous and keep their histories hidden.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -200,8 +210,9 @@
             </div>
         </div>
     </div>
+<!-- Features End -->
 
-
+<!-- Mission Begins -->
     <div class="section" id="our-mission">
         <div class="container">
             <div class="section-title">
@@ -362,8 +373,9 @@
             </div>
         </div>
     </div>
+<!-- Mission Ends -->
 
-
+<!-- Node Map Begins -->
     <!--
     <div class="section light-bg" id="nerva-map">
         <div class="container">
@@ -380,7 +392,7 @@
 				 <div class="col-sm-12">
 					<div class="bs-example" data-example-id="responsive-embed-16by9-iframe-youtube">
 					  <div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive" src="https://map.getnerva.org/" allowfullscreen=""></iframe>
+						<iframe class="embed-responsive" src="https://map.nerva.one/" allowfullscreen=""></iframe>
 					  </div>
 					</div>
 				</div>
@@ -389,15 +401,16 @@
 		</div>	
     </div>
     -->
+<!-- Node Map Ends -->
 
-
+<!-- Satoshi Whitepaper Begins -->
 	<div class="section light-bg" id="satoshi-wp">
         <div class="container">
 			<div class="section-title">
 				<div class="spacer"></div>
-				<h2>Satoshi Whitepaper</h2>
+				<h2>Satoshi Nakamoto's Whitepaper</h2>
 				<p>
-					According to the Satoshi whitepaper, bitcoin was supposed to be mined by CPUs only.
+					According to the Satoshi's whitepaper, bitcoin was supposed to be mined by CPUs. Nerva is trying to stay true to that vision by being pool resistant.
 				</p>				
 			</div>
 			<div class="row">
@@ -408,15 +421,15 @@
 			</div>
 	    </div>	
     </div>
+<!-- Satoshi Whitepaper Ends -->
 
-
+<!-- Roadmap Begins -->
 	<div class="section" id="nerva-roadmap-v2">
 		<div class="container">
 			<div class="section-title">
 				<span class="fa fa-road gradient-fill fa-3x"></span>
 				<div class="spacer"></div>
 				<h2>Nerva (XNV) Roadmap</h2>
-				<p>11/2021</p>
 			</div>
 			<div class="spacer visible-xs"></div>	
 		
@@ -424,6 +437,13 @@
 				
 				<div class="col-md-8 d-flex align-items-center">
 					<ul class="timeline timeline-split">
+                        <li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">2021</h2>
+							</div>
+						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
 								<span>Q4 / 2021</span>
@@ -431,7 +451,7 @@
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
 								<p class="timeline-title">XNV Treasury Buybacks</h3>
-								<p>Continue the XNV Treasury buyback via Tradeogre. Currently 26 914 Coins in the Treasury Wallet.</p>
+								<p>Continue the XNV Treasury buyback via Tradeogre. 26914 Coins are currently in the Treasury Wallet.</p>
 							</div>
 						</li>
 						<li class="timeline-item">
@@ -440,21 +460,21 @@
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<p class="timeline-title">Bitbucket to Github</h3>
-								<p>Migrate the Nerva Bitbucket Repository to Github making it accessible to more developers.</p>
+								<p class="timeline-title">Bitbucket to Github Migration</h3>
+								<p>Migrate the Nerva Bitbucket repository to Github making it accessible to more developers.</p>
 							</div>
 						</li>
-						<li class="timeline-item">
+                        <li class="timeline-item">
 							<div class="timeline-info">
 								<span>Q4 / 2021</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
-								<p class="timeline-title">Mobile Wallet for Android and iOS</h3>
-								<p>Provide a Nerva Mobile Wallet (NMW) to facilitate transactions and provide secure storage.</p>
+								<p class="timeline-title">Rebrand to a New Domain</h3>
+								<p>Set up Nerva services on nerva.one domain, release new version of Nerva software and update outside links.</p>
 							</div>
 						</li>
-						<li class="timeline-item period">
+                        <li class="timeline-item period">
 							<div class="timeline-info"></div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
@@ -467,6 +487,23 @@
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
+								<p class="timeline-title">Mobile Wallet for Android and iOS</h3>
+								<p>Provide a Nerva Mobile Wallet (NMW) to facilitate transactions and provide secure storage.</p>
+							</div>
+						</li>
+                        <li class="timeline-item period">
+							<div class="timeline-info"></div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
+								<h2 class="timeline-title">Possible Future Projects</h2>
+							</div>
+						</li>
+						<li class="timeline-item">
+							<div class="timeline-info">
+								<span>No Date</span>
+							</div>
+							<div class="timeline-marker"></div>
+							<div class="timeline-content">
 								<p class="timeline-title">DEX Integration (Uniswap & Co)</h3>
 								<p>Buy and sell XNV as a wrapped ERC-20 token via a decentralized exchange without KYC. (Know Your Customer)
 								<!-- Wrap Nerva into an erc-20 token, but then also provide the ability to atomic swap the wrapped Nerva between eth compatible chains. -->
@@ -475,12 +512,12 @@
 						</li>
 						<li class="timeline-item">
 							<div class="timeline-info">
-								<span>Q1 / 2022</span>
+								<span>No Date</span>
 							</div>
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
 								<p class="timeline-title">1 Click CPU Miner</h3>
-								<p>A one click solo miner to spread fullnodes even more and to make mining easier for new users.</p>
+								<p>A one click solo miner to spread full nodes even more and to make mining easier for new users.</p>
 							</div>
 						</li>
 					</ul>
@@ -491,16 +528,12 @@
 				</div>
 					
 			</div>
-			
-			<!-- <div class="time-bottom centered">
-				© GETNERVA.ORG
-			</div> -->
-			
 		</div>	
 	</div>
+<!-- Roadmap Ends -->
 
-
-    <div class="section light-bg" id="exchanges">
+<!-- Exchanges Begin -->
+    <div class="section light-bg align-items-center" id="exchanges">
         <div class="container">
             <div class="spacer-2x hidden-xs"></div>
             <div class="section-title">
@@ -508,7 +541,7 @@
                 <div class="spacer"></div>
                 <h2>Exchanges</h2>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
 			
                 <!-- <div class="col-12 col-lg-4">
                     <div class="card exchanges">
@@ -526,7 +559,7 @@
                         </div>
                     </div>
                 </div> -->
-				
+				         
                 <div class="col-12 col-lg-4">
                     <div class="card exchanges">
                         <div class="card-body">
@@ -544,6 +577,7 @@
                     </div>
                 </div>
 				
+                <!--
 				<div class="col-12 col-lg-4">
 					<div class="card exchanges">
 						<div class="card-body">
@@ -559,7 +593,9 @@
 						</div>
 					</div>
 				</div>
-
+                -->
+                
+                <!--
 				<div class="col-12 col-lg-4">
 					<div class="card exchanges">
 						<div class="card-body">
@@ -575,15 +611,16 @@
 						</div>
 					</div>
 				</div>
-				
+                -->				
             </div>
 			
             <div class="spacer hidden-xs"></div>
 			
         </div>
     </div>
+<!-- Exchanges End -->
 
-
+<!-- Mining Begins -->
     <div class="section" id="mining">
         <div class="container">
             <div class="spacer-2x hidden-xs"></div>
@@ -605,8 +642,9 @@
             <div class="spacer-2x hidden-xs"></div>
         </div>
     </div>
+<!-- Mining Ends -->
 
-
+<!-- Downloads Begin -->
     <div class="section light-bg" id="downloads">
         <div class="container">
             <div class="section-title">
@@ -693,7 +731,7 @@
                                     <h4 class="card-title">Source Code</h4>
                                     <p class="card-text">Nerva related repositories</p>
                                     <p><a class="btn btn-primary" href="https://bitbucket.org/nerva-xnv/"><span class="fab fa-bitbucket"></span> &nbsp; BitBucket</a></p>
-                                    <p><a class="btn btn-primary" href="https://github.com/angrywasp/nerva/"><span class="fab fa-github"></span> &nbsp; Github (Mirror)</a></p>
+                                    <p><a class="btn btn-primary" href="https://github.com/nerva-project"><span class="fab fa-github"></span> &nbsp; Github Repositories</a></p>
                                 </div>
                             </div>
                         </div>
@@ -716,8 +754,9 @@
             </div>
         </div>
     </div>
+<!-- Downloads End -->
 
-
+<!-- Paper Wallet Begins -->
     <div class="section" id="paper-wallet">
         <div class="container">
             <div class="spacer-2x hidden-xs"></div>
@@ -741,8 +780,9 @@
             <div id="paperwallet_result"></div>
         </div>
     </div>
+<!-- Paper Wallet Ends -->
 
-
+<!-- Reviews Begin -->
     <div class="section light-bg" id="reviews">
         <div class="container">
             <div class="section-title">
@@ -753,80 +793,37 @@
         <iframe src="https://revain.org/widget-v2/review-carousel?companyType=Project&companySlug=nerva&consumer=https%3A%2F%2Fgetnerva.org&contentLines=4&elevationLevel=2&writeReviewAt=3&sortBy=recent&perPage=6&bg=neutral.0&reviewLocale=en&ratingProgressFill=%23eb9c35&blockchainLinkColor=%231f89e5&showMoreLinkColor=%231f89e5&dataSource=null&locale=en&theme=default" width="100%" height="400" style="border: none; display: block"></iframe>
         </div>
     </div>
-
-
-    <!--<div class="section light-bg" id="faq">
-        <div class="container">
-            <div class="section-title">
-                <span class="fa fa-info gradient-fill fa-3x"></span>
-                <div class="spacer"></div>
-                <h2>FAQ</h2>
-            </div>
-
-            <div class="row pt-4">
-                <div class="col-md-6">
-                    <h4 class="mb-3">What's with the name?</h4>
-                    <p class="light-font mb-5">NERVA stands for Nuclear Engine for Rocket Vehicle Application. It was a
-                        part of a wider research project conducted by NASA in the 1950's and 60's to produce a nuclear
-                        powered rocket engine to power manned missions beyond the moon. NERVA never flew. Those vaguely
-                        familiar with crypto will see the irony in this.</p>
-                    <h4 class="mb-3">Is there a pre-mine?</h4>
-                    <p class="light-font mb-5">Yes. 180,000 coins were pre-mined for this project. This equates to
-                        approximately 0.97% of the total supply. This is to finance the infrastructure to run the
-                        network for the years to come.</p>
-                    <h4 class="mb-3">What's the max supply?</h4>
-                    <p class="light-font mb-5">There will be around 18.5 million coins issued before "tail emission"
-                        occurs, which is a small 1% annual inflation to keep miners incentivized, replace lost coins and
-                        provide future liquidity.</p>
-
-                </div>
-                <div class="col-md-6">
-                    <h4 class="mb-3">What pools are out there?</h4>
-                    <p class="light-font mb-5">Short answer, None. NERVA is intended to be a solo mined, with CPU only.
-                    </p>
-                    <h4 class="mb-3">What about GPU mining?</h4>
-                    <p class="light-font mb-5">Please read <a class="" href="#our-mission">our statement above</a>
-                        regarding the motivation for this coin.</p>
-                    <h4 class="mb-3">Where's your whitepaper?</h4>
-                    <p class="light-font mb-5">As this is a Monero fork, its basis are the
-                        <a class="colored" href="https://cryptonote.org/whitepaper.pdf">CryptoNote</a> and
-                        <a class="colored" href="https://lab.getmonero.org/pubs/MRL-0005.pdf">RingCT</a> protocols. A
-                        whitepaper regarding the Cryptonight Adaptive algorithm is in the works and will be published in
-                        due course.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
+<!-- Reviews End -->
     
+<!-- Social Networks Begin -->
 	<div class="section" id="stay-tuned">
         <div class="container">
             <div class="spacer"></div>
             <div class="section-title">
-                <h2>Follow us and stay tuned</h2>
+                <h2>Social Networks</h2>
             </div>
             <div class="row">
                 <div class="social-channels testimonials-single">
 					<p>The most active channel (including Support):<br /> 
 						<a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>					
 					</p>
-					<p>Other channels to stay tuned:<br /> 
+					<p>Other channels to follow:<br /> 
 						<a href="http://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x box-icon gradient-fill"></a>
 						<a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
 						<a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
-						<a href="https://bitbucket.org/nerva-xnv" class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
+						<a href="https://github.com/nerva-project" class="fab fa-github fa-2x box-icon gradient-fill"></a>
 					</p>
                 </div>
             </div>
         </div>
     </div>
+<!-- Social Networks End -->
 
-
+<!-- FAQ Begins -->
 	<div class="section light-bg" id="faq">
         <div class="container">
             <div class="section-title">              
-                <h2>FAQ - Frequently asked questions</h2>
+                <h2>FAQ - Frequently Asked Questions</h2>
             </div>
 
 			<div class="accordion_one">
@@ -839,7 +836,7 @@
 							<div class="panel-body">
 
 								<div class="text-accordion">
-									<p>Please refer to the documentation: <a href="https://docs.getnerva.org/">Nerva Wiki</a> </p>
+									<p>Please refer to the documentation: <a href="https://docs.nerva.one/">Nerva Wiki</a> </p>
 								</div>
 							</div>
 						</div>
@@ -854,7 +851,7 @@
 
 								<div class="text-accordion">
 									<p>
-									To check a paper wallets balance you have to restore the wallet: <a href="https://docs.getnerva.org/guides/cli/#restoring-a-wallet">Restoring a wallet</a>
+									To check a paper wallets balance you have to restore the wallet: <a href="https://docs.nerva.one/guides/cli/#restoring-a-wallet">Restoring a wallet</a>
 									<br />
 									There is no way to check a balance offline because nerva is a privacy coin. 
 									</p>
@@ -951,14 +948,15 @@
 			</div>
         </div>
     </div>	
-
+<!-- FAQ Ends -->
 
     <footer class="my-5 text-center">
         <small>
             <div class="spacer"></div>
-            <p>© COPYRIGHT <a href="http://www.getnerva.org/">NERVA</a></p>
+            <p>© COPYRIGHT <a href="https://nerva.one/">NERVA</a></p>
         </small>
     </footer>
+
 
     <!-- jQuery and Bootstrap -->
     <script src="js/jquery-3.2.1.min.js"></script>
