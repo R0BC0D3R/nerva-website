@@ -52,10 +52,9 @@
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#our-mission">MISSION</a> </li>
-                                <!--<li class="nav-item"><a class="nav-link" href="#nerva-map">NODES</a></li>-->
+                                <li class="nav-item"><a class="nav-link" href="#nerva-roadmap">ROADMAP</a></li>                                
                                 <li class="nav-item"> <a class="nav-link" href="#exchanges">TRADE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#paper-wallet">PAPER WALLET</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="https://docs.nerva.one/">WIKI</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="https://explorer.nerva.tools/">EXPLORER</a> </li>
                                 <li class="nav-item nav-item-btn"><a href="#downloads" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Downloads</a></li>
@@ -426,7 +425,7 @@
 <!-- Satoshi Whitepaper Ends -->
 
 <!-- Roadmap Begins -->
-	<div class="section" id="nerva-roadmap-v2">
+	<div class="section" id="nerva-roadmap">
 		<div class="container">
 			<div class="section-title">
 				<span class="fa fa-road gradient-fill fa-3x"></span>
