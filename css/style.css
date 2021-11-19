@@ -909,7 +909,6 @@ header {
   position: relative;
 }
 .timeline-title {
-	font-weight: 700;
 	color: #633991;
   }
 .timeline-item:last-child {
