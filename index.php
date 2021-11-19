@@ -410,7 +410,9 @@
 				<div class="spacer"></div>
 				<h2>Satoshi Nakamoto's Whitepaper</h2>
 				<p>
-					According to the Satoshi's whitepaper, bitcoin was supposed to be mined by CPUs. Nerva is trying to stay true to that vision by being pool resistant.
+					According to the Satoshi's whitepaper, bitcoin was supposed to be mined by CPUs.
+					<br />
+					Nerva is trying to stay true to that vision by being pool resistant.
 				</p>				
 			</div>
 			<div class="row">
