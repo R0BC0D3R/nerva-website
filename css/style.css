@@ -910,6 +910,7 @@ header {
 }
 .timeline-title {
 	color: #633991;
+	font-weight: 400;
   }
 .timeline-item:last-child {
   padding-bottom: 0;
