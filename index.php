@@ -15,7 +15,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="NERVA (XNV) is a cryptocurrency that you can mine on the computer you're using to read this website.">
-    <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
+    <meta name="keywords" content="nerva, xnv, crypto, cryptocurrency, crypto currency, one cpu one vote, mining, crypto mining, wallet, nerva wallet, crypto wallet">
 
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
@@ -52,11 +52,11 @@
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#our-mission">MISSION</a> </li>
-                                <li class="nav-item"><a class="nav-link" href="#nerva-roadmap">ROADMAP</a></li>                                
+                                <li class="nav-item"> <a class="nav-link" href="#nerva-roadmap">ROADMAP</a> </li>                                
                                 <li class="nav-item"> <a class="nav-link" href="#exchanges">TRADE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="https://docs.nerva.one/">WIKI</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://explorer.nerva.tools/">EXPLORER</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://explorer.nerva.one/">EXPLORER</a> </li>
                                 <li class="nav-item nav-item-btn"><a href="#downloads" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Downloads</a></li>
                             </ul>
                         </div>
@@ -84,7 +84,7 @@
                         </h1>
                         <br>
                         <p class="mb-4 white-text">
-                            It's GPU and ASIC resistant and stays true to Satoshi Nakamoto's vision of ONE-CPU-ONE-VOTE
+                            It's GPU and ASIC resistant and stays true to Satoshi Nakamoto's vision of ONE-CPU = ONE-VOTE
                         </p>
                         <p class="mb-4 white-text">NERVA offers true privacy and fungibility, is totally untraceable and
                             unlinkable, with users and transfer amounts hidden from the public
@@ -727,12 +727,11 @@
                     <div class="card features">
                         <div class="card-body">
                             <div class="media">
-                                <span class="big-icon fab fa-bitbucket gradient-fill"></span>
+                                <span class="big-icon fab fa-github gradient-fill"></span>
                                 <div class="media-body">
                                     <h3 class="card-title">Source Code</h3>
-                                    <p class="card-text">Nerva related repositories</p>
-                                    <p><a class="btn btn-primary" href="https://bitbucket.org/nerva-xnv/"><span class="fab fa-bitbucket"></span> &nbsp; BitBucket</a></p>
-                                    <p><a class="btn btn-primary" href="https://github.com/nerva-project"><span class="fab fa-github"></span> &nbsp; Github Repositories</a></p>
+                                    <p class="card-text">Nerva project repositories</p>
+                                    <p><a class="btn btn-primary" href="https://github.com/nerva-project"><span class="fab fa-github"></span> &nbsp; Github</a></p>
                                 </div>
                             </div>
                         </div>
