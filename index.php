@@ -25,6 +25,7 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link href="css/style.css" rel="stylesheet">
     <?php require_once './version.php';?>
 
@@ -783,22 +784,9 @@
         </div>
     </div>
 <!-- Paper Wallet Ends -->
-
-<!-- Reviews Begin -->
-    <div class="section light-bg" id="reviews">
-        <div class="container">
-            <div class="section-title">
-                <span class="fa fa-file-contract gradient-fill fa-3x"></span>
-                <div class="spacer"></div>
-                <h2>Reviews</h2>
-            </div>
-        <iframe src="https://revain.org/widget-v2/review-carousel?companyType=Project&companySlug=nerva&consumer=https%3A%2F%2Fgetnerva.org&contentLines=4&elevationLevel=2&writeReviewAt=3&sortBy=recent&perPage=6&bg=neutral.0&reviewLocale=en&ratingProgressFill=%23eb9c35&blockchainLinkColor=%231f89e5&showMoreLinkColor=%231f89e5&dataSource=null&locale=en&theme=default" width="100%" height="400" style="border: none; display: block"></iframe>
-        </div>
-    </div>
-<!-- Reviews End -->
     
 <!-- Social Networks Begin -->
-	<div class="section" id="stay-tuned">
+	<div class="section light-bg" id="stay-tuned">
         <div class="container">
             <div class="spacer"></div>
             <div class="section-title">
@@ -822,7 +810,7 @@
 <!-- Social Networks End -->
 
 <!-- FAQ Begins -->
-	<div class="section light-bg" id="faq">
+	<div class="section" id="faq">
         <div class="container">
             <div class="section-title">              
                 <h2>FAQ - Frequently Asked Questions</h2>
