@@ -2,15 +2,17 @@
 <html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159854683-1"></script>
+    <!-- Google Analytics Begins - Global site tag -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J46F6TCMGV"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'UA-159854683-1');
-    </script>
+    gtag('config', 'G-J46F6TCMGV');
+    </script> 
+    <!-- Google Analytics Ends -->
+
     <title>Nerva - Advanced Ideas. Simple Hardware.</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -84,7 +86,7 @@
                         </h1>
                         <br>
                         <p class="mb-4 white-text">
-                            It's GPU and ASIC resistant and stays true to Satoshi Nakamoto's vision of ONE-CPU = ONE-VOTE
+                            It's GPU and ASIC resistant and stays true to Satoshi Nakamoto's vision of 1-CPU = 1-VOTE
                         </p>
                         <p class="mb-4 white-text">NERVA offers true privacy and fungibility, is totally untraceable and
                             unlinkable, with users and transfer amounts hidden from the public
