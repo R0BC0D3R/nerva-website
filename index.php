@@ -807,10 +807,10 @@
             <div class="row">
                 <div class="social-channels testimonials-single">
 					<p>The most active channel (including Support):<br /> 
-						<a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>					
+						<a href="https://discord.gg/ufysfvcFwe" class="fab fa-discord fa-2x box-icon gradient-fill"></a>					
 					</p>
 					<p>Other channels to follow:<br /> 
-						<a href="http://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x box-icon gradient-fill"></a>
+						<a href="https://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x box-icon gradient-fill"></a>
 						<a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
 						<a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
 						<a href="https://github.com/nerva-project" class="fab fa-github fa-2x box-icon gradient-fill"></a>
@@ -939,7 +939,7 @@
 						<div id="collapseFiveLeftEight" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
 								<div class="text-accordion">
-									<p> Please join our <a href="https://discord.gg/jsdbEns">active discord forum</a> and ask for help.</p>
+									<p> Please join our <a href="https://discord.gg/ufysfvcFwe">active discord forum</a> and ask for help.</p>
 								</div>
 							</div>
 						</div>

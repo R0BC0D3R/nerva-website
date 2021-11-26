@@ -174,9 +174,9 @@ p,
 					    <ul class="list-group list-group-flush">
  					        <li class="list-group-item"><a href="https://twitter.com/NervaCurrency"><i class="fab fa-twitter gradient-fill"></i> On Twitter</a><br>Use 2 hashtags: #blockchain and #nervacoin</li>
  					        <li class="list-group-item"><a href="https://www.reddit.com/r/nerva"><i class="fab fa-reddit gradient-fill"></i> On Reddit</a><br>Post your contribution in the Nerva subreddit</li> 
- 					        <li class="list-group-item"><a href="https://discord.gg/jsdbEns"><i class="fab fa-discord gradient-fill"></i> On Discord</a><br>Post your contribution in the crowdgift channel</li>
+ 					        <li class="list-group-item"><a href="https://discord.gg/ufysfvcFwe"><i class="fab fa-discord gradient-fill"></i> On Discord</a><br>Post your contribution in the crowdgift channel</li>
  					        <li class="list-group-item"><a href="https://t.me/NervaXNV"><i class="fab fa-telegram gradient-fill"></i> On Telegram</a><br>Post your contribution in the Nerva Telegram channel and ake sure to tag your submissions with #crowdgift</li>
- 					        <li class="list-group-item">Other Plattforms<br> Please share a Link to your Content in our<br><a href="https://discord.gg/jsdbEns"><i class="fab fa-discord gradient-fill"></i> Crowdgift channel on Discord</a></li>	
+ 					        <li class="list-group-item">Other Plattforms<br> Please share a Link to your Content in our<br><a href="https://discord.gg/ufysfvcFwe"><i class="fab fa-discord gradient-fill"></i> Crowdgift channel on Discord</a></li>	
  					    </ul>
 					</div>				    
 					<div class="spacer"></div>
@@ -270,7 +270,7 @@ p,
                 <div class="col-md-6 text-center justify-content-center align-self-center">
                     <h2>Deadline</h2>
                     <p class="mb-4">Sunday, January 6th, at 10pm PST (California time).</p>
-					<p class="mb-4">As always, please let us know if you have any questions in <a href="https://t.me/NervaXNV" target="_blank">Telegram</a> or <a href="https://discord.gg/jsdbEns" target="_blank">Discord</a>. We look forward to seeing your responses!</p>
+					<p class="mb-4">As always, please let us know if you have any questions in <a href="https://t.me/NervaXNV" target="_blank">Telegram</a> or <a href="https://discord.gg/ufysfvcFwe" target="_blank">Discord</a>. We look forward to seeing your responses!</p>
 				    <div class="spacer"></div>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
@@ -296,7 +296,7 @@ p,
             <div class="row">
 			<div class="social-channels testimonials-single">
 				<a href="https://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x box-icon gradient-fill"></a>
-				<a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>
+				<a href="https://discord.gg/ufysfvcFwe" class="fab fa-discord fa-2x box-icon gradient-fill"></a>
 				<a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
 				<a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
 				<a href="https://github.com/nerva-project" class="fab fa-github fa-2x box-icon gradient-fill"></a>
