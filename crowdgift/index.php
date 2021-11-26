@@ -48,14 +48,14 @@ p,
 						</button>
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"> <a class="nav-link" href="http://getnerva.org/">HOME <span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://nerva.one/">HOME <span class="sr-only">(current)</span></a> </li>
                                 <!-- <li class="nav-item"> <a class="nav-link" href="#our-mission">MISSION</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#coming-soon">COMING SOON</a> </li>
 								<li class="nav-item"> <a class="nav-link" href="#exchanges">EXCHANGES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#mining">MINING</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#paper-wallet">PAPER WALLET</a> </li>									
                                 <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>								
-                                <li class="nav-item"> <a class="nav-link" href="https://explorer.getnerva.org">EXPLORER</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://explorer.nerva.tools/">EXPLORER</a> </li>
                                 <li class="nav-item nav-item-btn"><a href="#downloads" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Downloads</a></li> -->
                             </ul>
                         </div>
@@ -112,7 +112,7 @@ p,
             </div>			
             <!-- <img src="images/as-seen-on.png" alt="client logos" class="img-fluid"> -->
 			<p>						    
-				Answer the question "Why does Nerva and its mission matter to you?" however you want. Check our <a href="http://getnerva.org/" target="_blank">website</a> and <a href="http://getnerva.org/#stay-tuned" target="_blank">social-media channels</a> to make sure you understand what our "mission" actually is (hint: privacy, gpu and asic resistance). Do not just talk about privacy, but specifically how Nerva will impact the world of crypto. Feel free to also share ideas, potential use-cases and applications that can build on Nerva. 
+				Answer the question "Why does Nerva and its mission matter to you?" however you want. Check our <a href="https://nerva.one/" target="_blank">website</a> and <a href="https://nerva.one/#stay-tuned" target="_blank">social-media channels</a> to make sure you understand what our "mission" actually is (hint: privacy, gpu and asic resistance). Do not just talk about privacy, but specifically how Nerva will impact the world of crypto. Feel free to also share ideas, potential use-cases and applications that can build on Nerva. 
 			</p>
         </div>
 		<div class="spacer hidden-xs"></div>
@@ -299,7 +299,7 @@ p,
 				<a href="https://discord.gg/jsdbEns" class="fab fa-discord fa-2x box-icon gradient-fill"></a>
 				<a href="https://www.reddit.com/r/Nerva/" class="fab fa-reddit fa-2x box-icon gradient-fill"></a>
 				<a href="https://t.me/NervaXNV" class="fab fa-telegram fa-2x box-icon gradient-fill"></a>
-				<a href="https://bitbucket.org/nerva-project" class="fab fa-bitbucket fa-2x box-icon gradient-fill"></a>
+				<a href="https://github.com/nerva-project" class="fab fa-github fa-2x box-icon gradient-fill"></a>
 				<!-- <a href="#"><span class="fab fa-facebook fa-2x box-icon gradient-fill"></span></a>
                 <a href="#"><span class="fa fab-instagram fa-2x box-icon gradient-fill"></span></a> -->
             </div>			
@@ -313,7 +313,7 @@ p,
             <!-- <a href="#close" class="m-2">TERMS</a> -->
             <!-- <a href="#close" class="m-2">PRIVACY</a> -->
 			<div class="spacer"></div>
-			<p>© COPYRIGHT <a href="http://www.getnerva.org/">NERVA</a></p>
+			<p>© COPYRIGHT <a href="https://nerva.one/">NERVA</a></p>
         </small>	
     </footer>
 
