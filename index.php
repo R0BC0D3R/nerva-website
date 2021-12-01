@@ -87,7 +87,7 @@
                         </h1>
                         <br>
                         <p class="mb-4 white-text">
-                            It's GPU and ASIC resistant and stays true to Satoshi Nakamoto's vision of 1-CPU = 1-VOTE
+                            It's GPU and ASIC resistant and stays true to Satoshi Nakamoto's vision of 1 CPU = 1 VOTE
                         </p>
                         <p class="mb-4 white-text">NERVA offers true privacy and fungibility, is totally untraceable and
                             unlinkable, with users and transfer amounts hidden from the public
@@ -668,8 +668,8 @@
                                 <div class="media-body">
                                     <h3 class="card-title">Linux</h3>
                                     <p class="card-text">CLI and GUI for Linux x64</p>
-                                    <p><a class="btn btn-primary" href="<?php echo LINUX_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; CLI</a></p>
-                                    <p><a class="btn btn-primary" href="<?php echo LINUX_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; GUI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo LINUX_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo LINUX_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a></p>
                                 </div>
                             </div>
                         </div>
@@ -683,8 +683,8 @@
                                 <div class="media-body">
                                     <h3 class="card-title">Windows</h3>
                                     <p class="card-text">CLI and GUI for Windows x64</p>
-                                    <p><a class="btn btn-primary" href="<?php echo WINDOWS_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; CLI</a></p>
-                                    <p><a class="btn btn-primary" href="<?php echo WINDOWS_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; GUI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo WINDOWS_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo WINDOWS_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a></p>
                                 </div>
                             </div>
                         </div>
@@ -698,8 +698,8 @@
                                 <div class="media-body">
                                     <h3 class="card-title">Mac</h3>
                                     <p class="card-text">CLI and GUI for Mac OS</p>
-                                    <p><a class="btn btn-primary" href="<?php echo MAC_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; CLI</a></p>
-                                    <p><a class="btn btn-primary" href="<?php echo MAC_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; GUI</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo MAC_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a></p>
+                                    <p><a class="btn btn-primary" href="<?php echo MAC_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a></p>
                                 </div>
                             </div>
                         </div>
