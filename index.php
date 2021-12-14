@@ -55,12 +55,13 @@
                                 <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
                                 <li class="nav-item"> <a class="nav-link" href="#our-mission">MISSION</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#nerva-roadmap">ROADMAP</a> </li>                                
+                                <li class="nav-item"> <a class="nav-link" href="#roadmap">ROADMAP</a> </li>                                
                                 <li class="nav-item"> <a class="nav-link" href="#exchanges">TRADE</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://docs.nerva.one/">WIKI</a> </li>
-                                <li class="nav-item"> <a class="nav-link" href="https://explorer.nerva.one/">EXPLORER</a> </li>
-                                <li class="nav-item nav-item-btn"><a href="#downloads" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Downloads</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#downloads" >DOWNLOADS</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="#mining">MINE</a> </li>                                         
+                                <li class="nav-item"> <a class="nav-link" href="https://docs.nerva.one" target="_blank">WIKI</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://explorer.nerva.one" target="_blank">EXPLORER</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="https://map.nerva.one" target="_blank">NODEMAP</a> </li>                                
                             </ul>
                         </div>
                     </nav>
@@ -69,6 +70,7 @@
         </div>
     </div>
 <!-- Navigation Ends -->
+
 
 <!-- Home Begins -->
     <header class="bg-gradient" id="home">
@@ -101,6 +103,7 @@
         </div>
     </header>
 <!-- Home Begins -->
+
 
 <!-- Features Begin -->
     <div class="section light-bg" id="features">
@@ -213,6 +216,7 @@
         </div>
     </div>
 <!-- Features End -->
+
 
 <!-- Mission Begins -->
     <div class="section" id="our-mission">
@@ -377,36 +381,9 @@
     </div>
 <!-- Mission Ends -->
 
-<!-- Node Map Begins -->
-    <!--
-    <div class="section light-bg" id="nerva-map">
-        <div class="container">
-			<div class="section-title">
-				<div class="spacer"></div>
-				<h2>Node Map</h2>
-				<p>
-					Nerva is decentralized due to the single-CPU mining approach.
-					<br />
-					1 CPU = 1 Vote as Satoshi mentioned in his whitepaper.
-				</p>
-			</div>
-			<div class="row">			
-				 <div class="col-sm-12">
-					<div class="bs-example" data-example-id="responsive-embed-16by9-iframe-youtube">
-					  <div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive" src="https://map.nerva.one/" allowfullscreen=""></iframe>
-					  </div>
-					</div>
-				</div>
-			<div class="spacer-2x hidden-xs"></div>
-			</div>
-		</div>	
-    </div>
-    -->
-<!-- Node Map Ends -->
 
 <!-- Satoshi Whitepaper Begins -->
-	<div class="section light-bg" id="satoshi-wp">
+	<div class="section" id="satoshi-wp">
         <div class="container">
 			<div class="section-title">
 				<div class="spacer"></div>
@@ -427,8 +404,33 @@
     </div>
 <!-- Satoshi Whitepaper Ends -->
 
+<!-- Node Map Begins -->
+<div class="section" id="nodemap">
+        <div class="container">
+			<div class="section-title">
+				<div class="spacer"></div>
+				<h2>Node Map</h2>
+				<p>
+					Nerva is decentralized due to its pool resistantance and CPU-only mining.
+					<br />
+					1 CPU = 1 VOTE as Satoshi mentioned in his whitepaper.
+				</p>
+			</div>
+			<div class="row">			
+				 <div class="col-sm-12">
+                    <div style="height:700px;">
+						<iframe src="https://map.nerva.one/nodemap.html" width="100%" height="100%" style="border:none;" allowfullscreen=""></iframe>
+                    </div>
+				</div>
+			<div class="spacer-2x hidden-xs"></div>
+			</div>
+		</div>	
+    </div>
+<!-- Node Map Ends -->
+
+
 <!-- Roadmap Begins -->
-	<div class="section" id="nerva-roadmap">
+	<div class="section light-bg" id="roadmap">
 		<div class="container">
 			<div class="section-title">
 				<span class="fa fa-road gradient-fill fa-3x"></span>
@@ -536,8 +538,9 @@
 	</div>
 <!-- Roadmap Ends -->
 
+
 <!-- Exchanges Begin -->
-    <div class="section light-bg align-items-center" id="exchanges">
+<div class="section align-items-center" id="exchanges">
         <div class="container">
             <div class="spacer-2x hidden-xs"></div>
             <div class="section-title">
@@ -624,29 +627,6 @@
     </div>
 <!-- Exchanges End -->
 
-<!-- Mining Begins -->
-    <div class="section" id="mining">
-        <div class="container">
-            <div class="spacer-2x hidden-xs"></div>
-            <div class="row">
-                <div class="col-md-6 text-center justify-content-center align-self-center">
-                    <span class="fas fa-project-diagram  gradient-fill fa-3x"></span>
-                    <div class="spacer"></div>
-                    <h2>Start Mining</h2>
-                    <p class="mb-4">Nerva is super easy to mine. No extra software or looking up pools. Just download
-                        the software and go</p>
-                    <a href="https://www.reddit.com/r/Nerva/comments/9r32vj/how_to_mine_nerva_video_walkthrough_for_beginners/"
-                        class="btn btn-primary">Mining Tutorial</a>
-                    <div class="spacer"></div>
-                </div>
-                <div class="col-md-6 d-flex align-items-center">
-                    <img src="images/nerva-start-mining-colored.png" alt="dual phone" class="img-fluid">
-                </div>
-            </div>
-            <div class="spacer-2x hidden-xs"></div>
-        </div>
-    </div>
-<!-- Mining Ends -->
 
 <!-- Downloads Begin -->
     <div class="section light-bg" id="downloads">
@@ -759,8 +739,9 @@
     </div>
 <!-- Downloads End -->
 
+
 <!-- Paper Wallet Begins -->
-    <div class="section" id="paper-wallet">
+<div class="section" id="paper-wallet">
         <div class="container">
             <div class="spacer-2x hidden-xs"></div>
             <div class="row">
@@ -784,9 +765,35 @@
         </div>
     </div>
 <!-- Paper Wallet Ends -->
-    
+
+
+<!-- Mining Begins -->
+<div class="section light-bg" id="mining">
+        <div class="container">
+            <div class="spacer-2x hidden-xs"></div>
+            <div class="row">
+                <div class="col-md-6 text-center justify-content-center align-self-center">
+                    <span class="fas fa-project-diagram  gradient-fill fa-3x"></span>
+                    <div class="spacer"></div>
+                    <h2>Start Mining</h2>
+                    <p class="mb-4">Nerva is super easy to mine. No extra software or looking up pools. Just download
+                        the software and go</p>
+                    <a href="https://www.reddit.com/r/Nerva/comments/9r32vj/how_to_mine_nerva_video_walkthrough_for_beginners/"
+                        class="btn btn-primary">Mining Tutorial</a>
+                    <div class="spacer"></div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="images/nerva-start-mining-colored.png" alt="dual phone" class="img-fluid">
+                </div>
+            </div>
+            <div class="spacer-2x hidden-xs"></div>
+        </div>
+    </div>
+<!-- Mining Ends -->
+
+
 <!-- Social Networks Begin -->
-	<div class="section light-bg" id="stay-tuned">
+	<div class="section" id="stay-tuned">
         <div class="container">
             <div class="spacer"></div>
             <div class="section-title">
@@ -809,8 +816,9 @@
     </div>
 <!-- Social Networks End -->
 
+
 <!-- FAQ Begins -->
-	<div class="section" id="faq">
+	<div class="section light-bg" id="faq">
         <div class="container">
             <div class="section-title">              
                 <h2>FAQ - Frequently Asked Questions</h2>
@@ -943,7 +951,7 @@
     <footer class="my-5 text-center">
         <small>
             <div class="spacer"></div>
-            <p>© COPYRIGHT <a href="https://nerva.one/">NERVA</a></p>
+            <p>COPYRIGHT © 2021 <a href="https://nerva.one/">NERVA</a></p>
         </small>
     </footer>
 
