@@ -411,7 +411,9 @@
 				<div class="spacer"></div>
 				<h2>Node Map</h2>
 				<p>
-					Nerva is decentralized due to its pool resistance and CPU-only mining.  It is extremely resistant to 51% attacks because each miner operates full node.
+					Nerva is decentralized due to its pool resistance and CPU-only mining.
+                    <br />
+                    It is extremely resistant to 51% attacks because each miner operates full node.
 					<br />
 					1 CPU = 1 VOTE as Satoshi mentioned in his whitepaper.
 				</p>
