@@ -799,9 +799,10 @@
                     <div class="spacer"></div>
                     <h2>Start Mining</h2>
                     <p class="mb-4">Nerva is super easy to mine. No extra software or looking up pools. Just download
-                        the software and go</p>
-                    <a href="https://www.reddit.com/r/Nerva/comments/9r32vj/how_to_mine_nerva_video_walkthrough_for_beginners/"
-                        class="btn btn-primary">Mining Tutorial</a>
+                        the software and go
+                    </p>
+                    <a href="<?php echo MINING_GUI_LINK; ?>" class="btn btn-block btn-primary">GUI Mining Tutorial<br><small>(New Users)</small></a>
+                    <a href="<?php echo MINING_CLI_LINK; ?>" class="btn btn-block btn-primary">CLI Mining Tutorial<br><small>(Advanced Users)</small></a>
                     <div class="spacer"></div>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">

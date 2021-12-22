@@ -15,4 +15,7 @@ define('MAC_GUI_LINK', 'https://github.com/nerva-project/nerva-gui/releases/down
 
 define('LEDGER_LINK', 'https://nerva.one/#');
 define('QUICKSYNC_LINK', 'https://nerva.one/quicksync/quicksync.raw');
+
+define('MINING_GUI_LINK', 'https://docs.nerva.one/guides/gui/#mining');
+define('MINING_CLI_LINK', 'https://docs.nerva.one/guides/cli/#mining');
 ?>
