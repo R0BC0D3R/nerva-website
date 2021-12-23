@@ -649,14 +649,14 @@
                                 <span class="big-icon fab fa-linux gradient-fill"></span>
                                 <div class="media-body">
                                     <h3 class="card-title">Linux</h3>
-                                    <p class="card-text">CLI and GUI for Linux x64</p>
+                                    <p class="card-text">Apps for Linux x64</p>
                                     <p class="text-center">
                                         <small>For New Users</small>
-                                        <a class="btn btn-primary" href="<?php echo LINUX_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a>
+                                        <a class="btn btn-block btn-primary" href="<?php echo LINUX_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a>
                                     </p>
                                     <p class="text-center">
                                         <small>For Advanced Users</small>
-                                        <a class="btn btn-primary" href="<?php echo LINUX_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a>
+                                        <a class="btn btn-block btn-primary" href="<?php echo LINUX_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a>
                                     </p>
                                     
                                 </div>
@@ -671,14 +671,14 @@
                                 <span class="big-icon fab fa-windows gradient-fill"></span>
                                 <div class="media-body">
                                     <h3 class="card-title">Windows</h3>
-                                    <p class="card-text">CLI and GUI for Windows x64</p>
+                                    <p class="card-text">Apps for Windows x64</p>
                                     <p class="text-center">
                                         <small>For New Users</small>
-                                        <a class="btn btn-primary" href="<?php echo WINDOWS_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a>
+                                        <a class="btn btn-block btn-primary" href="<?php echo WINDOWS_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a>
                                     </p>
                                     <p class="text-center">
                                         <small>For Advanced Users</small>
-                                        <a class="btn btn-primary" href="<?php echo WINDOWS_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a>
+                                        <a class="btn btn-block btn-primary" href="<?php echo WINDOWS_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a>
                                     </p>
                                     
                                 </div>
@@ -693,14 +693,14 @@
                                 <span class="big-icon fab fa-apple gradient-fill"></span>
                                 <div class="media-body">
                                     <h3 class="card-title">Mac</h3>
-                                    <p class="card-text">CLI and GUI for Mac OS</p>
+                                    <p class="card-text">Apps for Mac OS</p>
                                     <p class="text-center">
                                         <small>For New Users</small>
-                                        <a class="btn btn-primary" href="<?php echo MAC_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a>
+                                        <a class="btn btn-block btn-primary" href="<?php echo MAC_GUI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Desktop App (GUI)&nbsp&nbsp&nbsp</a>
                                     </p>
                                     <p class="text-center">
                                         <small>For Advanced Users</small>
-                                        <a class="btn btn-primary" href="<?php echo MAC_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a>
+                                        <a class="btn btn-block btn-primary" href="<?php echo MAC_CLI_LINK; ?>"><span class="fa fa-download"></span> &nbsp; Command Line (CLI)</a>
                                     </p>                                    
                                 </div>
                             </div>
@@ -709,6 +709,7 @@
                 </div>
             </div>
 
+            <br />
             <div class="spacer hidden-xs"></div>
 
             <div class="row">
