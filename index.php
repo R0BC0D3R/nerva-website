@@ -802,8 +802,11 @@
                     <p class="mb-4">Nerva is super easy to mine. No extra software or looking up pools. Just download
                         the software and go
                     </p>
-                    <a href="<?php echo MINING_GUI_LINK; ?>" class="btn btn-block btn-primary">GUI Mining Tutorial<br><small>(New Users)</small></a>
-                    <a href="<?php echo MINING_CLI_LINK; ?>" class="btn btn-block btn-primary">CLI Mining Tutorial<br><small>(Advanced Users)</small></a>
+                    <a href="<?php echo MINING_GUI_LINK; ?>" class="btn btn-block btn-primary">GUI Mining Tutorial<br /><small>(New Users)</small></a>
+                    <a href="<?php echo MINING_CLI_LINK; ?>" class="btn btn-block btn-primary">CLI Mining Tutorial<br /><small>(Advanced Users)</small></a>
+                    <br /><br />
+                    <h2>Mining Calculator</h2>
+                    <p class="mb-4"><a href="https://www.cryptunit.com/coin/XNV?hr=1000" target="_blank" rel="nofollow">NERVA Mining Calculator on CryptUnit</a></p>
                     <div class="spacer"></div>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
@@ -884,13 +887,12 @@
 					
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftThree"data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false"> How can I calculate my mining costs? </a> </h3>
+							<h3 class="panel-title"> <a class="collapsed" data-target="#collapseFiveLeftThree"data-toggle="collapse" data-parent="#accordion_oneLeft" href="#close" aria-expanded="false"> How can I calculate my mining rewards? </a> </h3>
 						</div>
 						<div id="collapseFiveLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tablist">
 							<div class="panel-body">
 								<div class="text-accordion">
-									<p> Use the <a href="https://www.cryptunit.com/coin/XNV">Mining Calculator from Cryptunit</a>
-									 </p>
+									<p> Use the <a href="https://www.cryptunit.com/coin/XNV" target="_blank" rel="nofollow">Mining Calculator from CryptUnit</a></p>
 								</div>
 							</div>
 						</div>
@@ -975,7 +977,7 @@
     <footer class="my-5 text-center">
         <small>
             <div class="spacer"></div>
-            <p>COPYRIGHT © 2021 <a href="https://nerva.one/">NERVA</a></p>
+            <p>Copyright © 2018 - 2022 <a href="https://nerva.one/">NERVA Project</a></p>
         </small>
     </footer>
 
