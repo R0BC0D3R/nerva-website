@@ -459,7 +459,7 @@
 							<div class="timeline-marker"></div>
 							<div class="timeline-content">
 								<p class="timeline-title">XNV Treasury Buybacks</h3>
-								<p>Continue the XNV Treasury buyback via Tradeogre. 26914 Coins are currently in the Treasury Wallet.</p>
+								<p>Continue the XNV Treasury buyback via Tradeogre. 100100 Coins are currently in the Treasury Wallet.</p>
 							</div>
 						</li>
 						<li class="timeline-item">
