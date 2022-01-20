@@ -72,7 +72,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
-                    <img src="../images/nerva-crowdgift-1.png" alt="nerva-chain" class="img-fluid">
+                    <img src="../images/nerva-donate.png" alt="nerva-chain" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <div>
@@ -167,8 +167,10 @@
                     Don't forget to provide exact amount you sent, date, time and transaction hash if available.
                     You can donate multiple times during this giveaway period and we will combine your total $ value.
                     <br /><br />
-                    The top 10 contributors in $ value at the end of giveaway period will be notified and will be able to pick their NFT in descending order 
-                    of their contribution (i.e. winner #1 choses first).
+                    The top 10 contributors in $ value at the end of giveaway period will pick from 15 NFTs. 1st and 2nd place will get to pick 3 NFTs each, 
+                    3rd place will pick 2 NFTs and all other places will get 1 NFT. Order of picking NFTs will be as follows: 
+                    #1, #2, #3, #1, #2, #3, #1, #2, #4, #5, #6, #7, #8, #9, #10.
+                    Winners will be notified after 5 February 2022 and given opportunity to pick their NFTs in the order specified above.
                     <br /><br />
                     <b>All NFTs are set up on the Polygon blockchain, so there will be no fees for receiving them.</b>
                     <br /><br />
@@ -179,6 +181,28 @@
                     <a href="https://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x gradient-fill" target="_blank"> Twitter</a>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="https://www.reddit.com/r/nerva/new/" class="fab fa-reddit fa-2x gradient-fill" target="_blank"> Reddit</a>
+                    <br /><br />
+                    <b>Current leaders in $ value</b>
+                    <br />
+                    #1 - $0
+                    <br />
+                    #2 - $0
+                    <br />
+                    #3 - $0
+                    <br />
+                    #4 - $0
+                    <br />
+                    #5 - $0
+                    <br />
+                    #6 - $0
+                    <br />
+                    #7 - $0
+                    <br />
+                    #8 - $0
+                    <br />
+                    #9 - $0
+                    <br />
+                    #10 - $0
 				</p>				
 			</div>
 	    </div>	
