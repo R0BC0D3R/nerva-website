@@ -25,7 +25,7 @@
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
     <link href="../css/style.css" rel="stylesheet">
     <!-- jQuery and Bootstrap -->
     <script src="../js/jquery-3.2.1.min.js"></script>
@@ -78,7 +78,7 @@
                     <div>
                         <div class="spacer hidden-xs"></div>
                         <h1 class="page-intro">
-                            Donate to Support NERVA Project
+                            DONATE TO SUPPORT NERVA PROJECT
                         </h1>
                         <br>
                         <p class="mb-4 white-text">
@@ -86,7 +86,7 @@
                         </p>
                         <p class="mb-4 white-text">
                             It is community managed and driven on a voluntary basis.  With your support we can keep pushing forward, 
-                                potentially buy back XNV and use the funds for future developments or marketing campaigns.
+                                potentially buy back XNV and use the funds for future developments or marketing campaigns
                         </p>       
                     </div>
                 </div>
@@ -131,15 +131,18 @@
 				<div class="spacer"></div>
 				<h2>Current Treasury Holdings</h2>
 				<p>
-                    As a community project, we like to be transparent about our financials. Here is what our treasury accounts currently hold:
+                    As a community project, we like to be transparent about our financials. Here is what our accounts currently hold:
                     <br /><br />
-                    XNV Deposit Address: 100100
+                    NERVA Deposit Address: <b>100100 XNV</b>
                     <br /><br />
-                    <a href="https://www.blockchain.com/btc/address/bc1qk8aafmjcxeewzw4dcgkdc2cwegsqxeh5krndgrat45ux97kqpu6s3vth8t" target="_blank">BTC Treasury Deposit Address</a>: 0
+                    <a href="https://www.blockchain.com/btc/address/bc1qk8aafmjcxeewzw4dcgkdc2cwegsqxeh5krndgrat45ux97kqpu6s3vth8t" target="_blank">
+                        Bitcoin Treasury Deposit Address</a>: <b>0.00000000 BTC</b>
                     <br /><br />
-                    LTC Deposit Address: 0
+                    <a href="https://litecoinblockexplorer.net/address/LfFN4x4WFr1pDfW2FBjLEjN2w1SVWai7e5" target="_blank">
+                        Litecoin  Deposit Address</a>: <b>0.00000000 LTC</b>
                     <br /><br />
-                    The treasury account is held save by long-term community members and will only be used for activities that have been discussed and agreed upon by the community in advance.
+                    The treasury account is held by long-term community members and will only be used for activities that have been discussed and agreed upon 
+                    by the community in advance.
 				</p>				
 			</div>
 	    </div>	
@@ -154,22 +157,28 @@
 				<div class="spacer"></div>
 				<h2>January 2022 Meme Giveaway Campaign</h2>
 				<p>
-                    As a fun little experiment, we are giving away NFTs of some of our phantastic NERVA memes to the 10 community members who make the highest donations <b>between 20 January and 19 February 2022</b>.
+                    As a fun little experiment, we are giving away NFTs of some of our phantastic NERVA memes to the 10 community members who make the highest 
+                    donations <b>between 20 January and 5 February 2022</b>.
                     <br /><br />
-                    Have a look at our collectibles up for grabs on OpenSea: [link, tbd]
+                    Have a look at our collectibles up for grabs on OpenSea: 
+                        <a href="https://opensea.io/collection/nerva-xnv-cryptocurrency-collectibles" target="_blank">NERVA Collectibles</a>
                     <br /><br />
-                    In order to qualify, just make your donation and send a DM to the account who made the respective announcement on Discord, Twitter or Reddit. 
-                    Don't forget to state the amount you sent and provide transaction details (just give us the exact date and time in case you don't have a transaction hash).
-                    The top 10 contributors will be notified after 19 February 2022 and will be able to pick their NFT in descending order of their contribution (i.e. winner #1 choses first).
-                    Note: All NFTs are set up on the Polygon blockchain, so there will be no fees for receiving them.
+                    In order to qualify, just make your donation and send a DM to the account who made the respective announcement on Discord, Twitter or Reddit.                    
+                    Don't forget to provide exact amount you sent, date, time and transaction hash if available.
+                    You can donate multiple times during this giveaway period and we will combine your total $ value.
+                    <br /><br />
+                    The top 10 contributors in $ value at the end of giveaway period will be notified and will be able to pick their NFT in descending order 
+                    of their contribution (i.e. winner #1 choses first).
+                    <br /><br />
+                    <b>All NFTs are set up on the Polygon blockchain, so there will be no fees for receiving them.</b>
                     <br /><br />
                     See our announcements on:
                     <br />
-                    Discord: [link]
+                    <a href="https://discord.gg/ufysfvcFwe" target="_blank">Discord</a>
                     <br />
-                    Twitter: [link]
+                    <a href="https://twitter.com/NervaCurrency" target="_blank">Twitter</a>
                     <br />
-                    Reddit: [link]                   
+                    <a href="https://www.reddit.com/r/nerva/new/" target="_blank">Reddit</a>               
 				</p>				
 			</div>
 	    </div>	
