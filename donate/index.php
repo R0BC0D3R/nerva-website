@@ -174,11 +174,11 @@
                     <br /><br />
                     See our announcements on:
                     <br />
-                    <a href="https://discord.gg/ufysfvcFwe" target="_blank">Discord</a>
-                    <br />
-                    <a href="https://twitter.com/NervaCurrency" target="_blank">Twitter</a>
-                    <br />
-                    <a href="https://www.reddit.com/r/nerva/new/" target="_blank">Reddit</a>               
+                    <a href="https://discord.gg/ufysfvcFwe" class="fab fa-discord fa-2x gradient-fill" target="_blank"> Discord</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x gradient-fill" target="_blank"> Twitter</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.reddit.com/r/nerva/new/" class="fab fa-reddit fa-2x gradient-fill" target="_blank"> Reddit</a>
 				</p>				
 			</div>
 	    </div>	
