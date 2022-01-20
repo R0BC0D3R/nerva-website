@@ -176,11 +176,11 @@
                     <br /><br />
                     See our announcements on:
                     <br />
+                    <a href="https://twitter.com/NervaCurrency/status/1484227440314621958" class="fab fa-twitter fa-2x gradient-fill" target="_blank"> Twitter</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://reddit.com/r/Nerva/comments/s8n48r/support_nerva_xvn_and_boost_your_collection_with/" class="fab fa-reddit fa-2x gradient-fill" target="_blank"> Reddit</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     <a href="https://discord.gg/ufysfvcFwe" class="fab fa-discord fa-2x gradient-fill" target="_blank"> Discord</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://twitter.com/NervaCurrency" class="fab fa-twitter fa-2x gradient-fill" target="_blank"> Twitter</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="https://www.reddit.com/r/nerva/new/" class="fab fa-reddit fa-2x gradient-fill" target="_blank"> Reddit</a>
                     <br /><br />
                     <b>Current leaders in $ value</b>
                     <br />
