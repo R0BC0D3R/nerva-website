@@ -184,9 +184,9 @@
                     <br /><br />
                     <b>Current leaders in $ value</b>
                     <br />
-                    #1 - $0
+                    #1 - 20000.123 XNV
                     <br />
-                    #2 - $0
+                    #2 - Unclaimed Amount
                     <br />
                     #3 - $0
                     <br />
