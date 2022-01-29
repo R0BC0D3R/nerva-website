@@ -186,9 +186,9 @@
                     <br />
                     #1 - 20000.123 XNV
                     <br />
-                    #2 - Unclaimed Amount
+                    #2 - 0.20220129 LTC
                     <br />
-                    #3 - $0
+                    #3 - Unclaimed Amount
                     <br />
                     #4 - $0
                     <br />
