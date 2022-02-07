@@ -133,13 +133,13 @@
 				<p>
                     As a community project, we like to be transparent about our financials. Here is what our accounts currently hold:
                     <br /><br />
-                    NERVA Deposit Address: <b>100100 XNV</b>
+                    NERVA Deposit Address: <b>120200 XNV</b>
                     <br /><br />
                     <a href="https://www.blockchain.com/btc/address/bc1qk8aafmjcxeewzw4dcgkdc2cwegsqxeh5krndgrat45ux97kqpu6s3vth8t" target="_blank">
                         Bitcoin Treasury Deposit Address</a>: <b>0.00000000 BTC</b>
                     <br /><br />
                     <a href="https://litecoinblockexplorer.net/address/LfFN4x4WFr1pDfW2FBjLEjN2w1SVWai7e5" target="_blank">
-                        Litecoin  Deposit Address</a>: <b>0.00000000 LTC</b>
+                        Litecoin  Deposit Address</a>: <b>0.34914773 LTC</b>
                     <br /><br />
                     The treasury account is held by long-term community members and will only be used for activities that have been discussed and agreed upon 
                     by the community in advance.
@@ -188,11 +188,11 @@
                     <br />
                     #2 - 0.20220129 LTC
                     <br />
-                    #3 - Unclaimed Amount
+                    #3 - 0.14694644 LTC
                     <br />
-                    #4 - $0
+                    #4 - Unclaimed Amount
                     <br />
-                    #5 - $0
+                    #5 - Unclaimed Amount
                     <br />
                     #6 - $0
                     <br />
